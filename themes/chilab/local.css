@@ -59,3 +59,8 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     background-color: #a92222;
     will-change: left, right;
 }
+
+.honors-page .honors .honors-item:hover {
+    background: #598392;
+    color: #ffffd0;
+}

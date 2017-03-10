@@ -4,8 +4,7 @@ core = 7.x
 
 stylesheets[all][] = css/materialize.min.css
 stylesheets[all][] = style.css
-scripts[all][] =  js/jquery-3.1.1.min.js
-scripts[all][] =  js/materialize.min.js
+scripts[] =  js/materialize.min.js
 
 regions[header_top_left] = Header Top Left
 regions[header_top_right] = Header Top Right
