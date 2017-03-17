@@ -1,0 +1,66 @@
+/* Custom CSS overrides */
+
+.publications-page button.sort {
+    background: transparent;
+    border: none;
+}
+.publications-page .sort-icon {
+    margin-left: 5px;
+}
+.publications-page .sort-icon.down {
+    display: inline-block;
+    border-color: black transparent;
+    border-width: 6px 6px 0px 6px;
+    border-style: solid;
+    margin-top: 8px;
+}
+.publications-page .search-box {
+    position: relative;
+}
+.publications-page .search-box .search-icon {
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+.publications-page .publications {
+    margin-top: 20px;
+}
+
+.publications-page table th {
+    background: transparent;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+nav {
+    color: #fff;
+    background-color: #691515;
+    width: 100%;
+}
+
+nav ul li a.active, nav ul li.active, nav ul li a:hover {
+    background: #561212;
+    color: #fff;
+}
+
+
+.tabs .tab a {
+    color: rgba(105, 21, 21, 0.7);
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #691515;
+}
+
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #a92222;
+    will-change: left, right;
+}
+
+.honors-page .honors .honors-item:hover {
+    background: #598392;
+    color: #ffffd0;
+}
