@@ -412,7 +412,12 @@ function chilab_preprocess_page(&$variables) {
         drupal_add_js(drupal_get_path('theme', 'chilab') .'/js/publications.js', array('preprocess' => false));
 	}
 
-	/**
+    if (drupal_get_path_alias() == 'people') {
+        $variables['page']['class'] = "people-page";
+        drupal_add_js(drupal_get_path('theme', 'chilab') .'/js/people.js', array('preprocess' => false));
+    }
+
+    /**
 	 * Insert variables into the page template.
 	 */
 	// if (isset($variables['node']) && $variables['node']->type != 'page' ) { 

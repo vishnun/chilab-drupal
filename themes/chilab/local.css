@@ -64,3 +64,16 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     background: #598392;
     color: #ffffd0;
 }
+.people-page .collection .collection-item.avatar {
+    padding-left: 150px;
+    min-height: 180px;
+}
+.people-page  .collection .collection-item.avatar .circle {
+    border-radius: 0;
+    width: 120px;
+    height: 160px;
+}
+
+#main-content, #header {
+    padding: 0;
+}
