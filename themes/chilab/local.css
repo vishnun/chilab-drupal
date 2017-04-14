@@ -84,6 +84,10 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     padding: 0;
 }
 
+#header .header-row {
+    margin-bottom: 0;
+}
+
 .home-page .parallax-container {
     height: 600px;
 }

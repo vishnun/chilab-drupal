@@ -9,7 +9,7 @@
 
             <!-- #header-top-inside -->
             <div id="header-top-inside" class="clearfix">
-                <div class="row">
+                <div class="">
 
                     <?php if ($page['header_top_left']) : ?>
                         <div class="<?php print $header_top_left_grid_class; ?>">
@@ -49,7 +49,7 @@
 
     <!-- #header-inside -->
 
-    <div class="row">
+    <div class="row header-row">
         <nav>
             <div class="nav-wrapper col l10 offset-l1 s12">
 
@@ -149,7 +149,7 @@
             <div class="row">
 
 
-                <section class="">
+                <section class="row">
 
                     <!-- #promoted -->
                     <?php if ($page['promoted']): ?>
@@ -171,7 +171,7 @@
 
                         <!-- #tabs -->
                         <?php if ($tabs): ?>
-                            <div class="tabs">
+                            <div class="tabs hide">
                                 <?php print render($tabs); ?>
                             </div>
                         <?php endif; ?>
