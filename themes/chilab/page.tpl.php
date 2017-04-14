@@ -144,7 +144,7 @@
 
     <!-- #main-content -->
     <div id="main-content">
-        <div class="container">
+        <div class="<?php print $page['class'] ?>">
 
             <div class="row">
 

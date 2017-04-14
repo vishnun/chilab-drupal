@@ -417,6 +417,11 @@ function chilab_preprocess_page(&$variables) {
         drupal_add_js(drupal_get_path('theme', 'chilab') .'/js/people.js', array('preprocess' => false));
     }
 
+    if (drupal_get_path_alias() == 'home') {
+        $variables['page']['class'] = "home-page";
+        drupal_add_js(drupal_get_path('theme', 'chilab') .'/js/home.js', array('preprocess' => false));
+    }
+
     /**
 	 * Insert variables into the page template.
 	 */
