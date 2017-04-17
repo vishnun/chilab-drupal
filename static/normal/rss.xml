@@ -8,20 +8,14 @@
       <item>
     <title>Home</title>
     <link>http://localhost:8888/chilab-drupal/home</link>
-    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;div&gt;
-&lt;div class=&quot;row&quot;&gt;
-&lt;div class=&quot;col s7&quot;&gt;
-&lt;h1 class=&quot;title&quot;&gt;Michelene (Micki) T.H. Chi&lt;/h1&gt;
-&lt;h2 aria-label=&quot;Michelene (Micki) T.H. Chi&quot;&gt;
-        &lt;img src=&quot;/chilab-drupal/themes/chilab/images/calligraph.png&quot; /&gt;&lt;/h2&gt;
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;div class=&quot;parallax-container&quot;&gt;
+&lt;div class=&quot;parallax&quot;&gt;&lt;img src=&quot;/chilab-drupal/themes/chilab/images/micki_chi-wide.jpg&quot; /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&quot;col s3&quot;&gt;
-      &lt;img class=&quot;headshot-img&quot; src=&quot;/chilab-drupal/themes/chilab/images/dr-chi-headshot.jpg&quot; alt=&quot;Michelene (Micki) T.H. Chi&quot; /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-&lt;div class=&quot;col s12&quot;&gt;
-&lt;h3 class=&quot;reduced-font&quot;&gt;Current Positions:&lt;/h3&gt;
-&lt;div class=&quot;position&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+&lt;div class=&quot;section white&quot;&gt;
+&lt;div class=&quot;row container&quot;&gt;
+&lt;h2 class=&quot;header&quot;&gt;Parallax&lt;/h2&gt;
+&lt;p class=&quot;grey-text text-darken-3 lighten-3&quot;&gt;
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
      <pubDate>Thu, 09 Mar 2017 17:48:02 +0000</pubDate>
  <dc:creator>chilab</dc:creator>
  <guid isPermaLink="false">2 at http://localhost:8888/chilab-drupal</guid>

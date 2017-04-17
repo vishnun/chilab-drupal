@@ -171,7 +171,7 @@
 
                         <!-- #tabs -->
                         <?php if ($tabs): ?>
-                            <div class="tabs hide">
+                            <div class="tabs">
                                 <?php print render($tabs); ?>
                             </div>
                         <?php endif; ?>

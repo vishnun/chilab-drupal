@@ -4,9 +4,11 @@
     background: transparent;
     border: none;
 }
+
 .publications-page .sort-icon {
     margin-left: 5px;
 }
+
 .publications-page .sort-icon.down {
     display: inline-block;
     border-color: black transparent;
@@ -14,14 +16,17 @@
     border-style: solid;
     margin-top: 8px;
 }
+
 .publications-page .search-box {
     position: relative;
 }
+
 .publications-page .search-box .search-icon {
     position: absolute;
     right: 0;
     top: 15px;
 }
+
 .publications-page .publications {
     margin-top: 20px;
 }
@@ -41,7 +46,6 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     background: #561212;
     color: #fff;
 }
-
 
 .tabs .tab a {
     color: rgba(105, 21, 21, 0.7);
@@ -64,11 +68,13 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     background: #598392;
     color: #ffffd0;
 }
+
 .people-page .collection .collection-item.avatar {
     padding-left: 150px;
     min-height: 180px;
 }
-.people-page  .collection .collection-item.avatar .circle {
+
+.people-page .collection .collection-item.avatar .circle {
     border-radius: 0;
     width: 120px;
     height: 160px;
@@ -76,4 +82,28 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
 
 #main-content, #header {
     padding: 0;
+}
+
+#header .header-row {
+    margin-bottom: 0;
+}
+
+.home-page .parallax-container {
+    height: 600px;
+}
+
+.home-page .parallax-title {
+    position: relative;
+    z-index: 2;
+    margin-top: 100px;
+}
+.home-page .parallax-title img {
+    display: block;
+    position: relative;
+    height: initial;
+    width: initial;
+    min-width: auto;
+    min-height: auto;
+    transform: none;
+    left: 0;
 }
