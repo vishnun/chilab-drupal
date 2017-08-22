@@ -1,0 +1,801 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="HandheldFriendly" content="true" />
+<link rel="shortlink" href="/node/1" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/publications" />
+<meta name="MobileOptimized" content="width" />
+  <title>Publications | Chilab</title>
+  <style type="text/css" media="all">
+@import url("/modules/system/system.base.css?");
+@import url("/modules/system/system.menus.css?");
+@import url("/modules/system/system.messages.css?");
+@import url("/modules/system/system.theme.css?");
+</style>
+<style type="text/css" media="all">
+@import url("/modules/comment/comment.css?");
+@import url("/modules/field/theme/field.css?");
+@import url("/modules/node/node.css?");
+@import url("/modules/search/search.css?");
+@import url("/modules/user/user.css?");
+@import url("/sites/all/modules/views/css/views.css?");
+</style>
+<style type="text/css" media="all">
+@import url("/sites/all/modules/ctools/css/ctools.css?");
+@import url("/themes/chilab/js/meanmenu/meanmenu.css?");
+</style>
+<style type="text/css" media="all">
+@import url("/themes/chilab/css/materialize.min.css?");
+@import url("/themes/chilab/css/icon.css?");
+@import url("/themes/chilab/style.css?");
+</style>
+
+<!--[if (IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="/themes/chilab/ie9.css?" media="all" />
+<![endif]-->
+<style type="text/css" media="all">
+@import url("/themes/chilab/local.css?");
+</style>
+
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="/misc/drupal.js?"></script>
+<script type="text/javascript" src="/themes/chilab/js/list.min.js?"></script>
+<script type="text/javascript" src="/themes/chilab/js/publications.js?"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+		$(window).scroll(function() {
+			if($(this).scrollTop() != 0) {
+				$("#toTop").addClass("show");	
+			} else {
+				$("#toTop").removeClass("show");
+			}
+		});
+		
+		$("#toTop").click(function() {
+			$("body,html").animate({scrollTop:0},800);
+		});	
+		
+		});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+
+			var	headerTopHeight = $("#header-top").outerHeight(),
+			headerHeight = $("#header").outerHeight();
+			
+			$(window).scroll(function() {
+			if(($(this).scrollTop() > headerTopHeight+headerHeight) && ($(window).width() > 767)) {
+				$("body").addClass("onscroll");
+				if (($("#site-name").length > 0) && ($("#logo").length > 0)) {
+					$(".onscroll #logo").addClass("hide");
+				}
+
+				if ($("#banner").length > 0) { 
+ 					$("#banner").css("marginTop", (headerHeight)+"px");
+				} else if ($("#page-intro").length > 0) {
+					$("#page-intro").css("marginTop", (headerHeight)+"px");
+				} else {
+					$("#page").css("marginTop", (headerHeight)+"px");
+				}
+			} else {
+				$("body").removeClass("onscroll");
+				$("#logo").removeClass("hide");
+				$("#page,#banner,#page-intro").css("marginTop", (0)+"px");
+			}
+			});
+		});
+//--><!]]>
+</script>
+<script type="text/javascript" src="/themes/chilab/js/meanmenu/jquery.meanmenu.fork.js?"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) {
+
+			$("#main-navigation .sf-menu, #main-navigation .content>ul.menu, #main-navigation ul.main-menu").wrap("<div class='meanmenu-wrapper'></div>");
+			$("#main-navigation .meanmenu-wrapper").meanmenu({
+				meanScreenWidth: "767",
+				meanRemoveAttrs: true,
+				meanMenuContainer: "#header-inside",
+				meanMenuClose: ""
+			});
+
+			$("#header-top .sf-menu, #header-top .content>ul.menu").wrap("<div class='header-top-meanmenu-wrapper'></div>");
+			$("#header-top .header-top-meanmenu-wrapper").meanmenu({
+				meanScreenWidth: "767",
+				meanRemoveAttrs: true,
+				meanMenuContainer: "#header-top-inside",
+				meanMenuClose: ""
+			});
+
+		});
+//--><!]]>
+</script>
+<script type="text/javascript" src="/themes/chilab/js/materialize.min.js?"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"chilab","theme_token":"MGluZfBg6tItW_UD7CBYeTqu4qjgF-wi9ao0AMqj0lE","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"themes\/chilab\/js\/list.min.js":1,"themes\/chilab\/js\/publications.js":1,"0":1,"1":1,"themes\/chilab\/js\/meanmenu\/jquery.meanmenu.fork.js":1,"2":1,"themes\/chilab\/js\/materialize.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"themes\/chilab\/js\/meanmenu\/meanmenu.css":1,"themes\/chilab\/css\/materialize.min.css":1,"themes\/chilab\/css\/icon.css":1,"themes\/chilab\/style.css":1,"themes\/chilab\/ie9.css":1,"themes\/chilab\/local.css":1}}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-1 node-type-page no-banner sff-7 slff-7 hff-7 pff-7 form-style-1" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+        <div id="toTop"><i class="fa fa-angle-up"></i></div>
+
+
+<!-- #header -->
+<header id="header" class="clearfix">
+
+    <!-- #header-inside -->
+
+    <div class="row header-row">
+        <nav>
+            <div class="nav-wrapper col l10 offset-l1 s12">
+
+                                        <a class="brand-logo" href="/" title="Home" rel="home"> <img
+                                    src="/themes/chilab/logo.png" alt="Home"/> </a>
+                
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+                                    <h2 class="element-invisible">Main menu</h2><ul class="right hide-on-med-and-down" id="nav-mobile"><li class="menu-219 first"><a href="/">Home</a></li>
+<li class="menu-390"><a href="/honors" title="Dr. Chi&#039;s honors">Honors</a></li>
+<li class="menu-316 active-trail active"><a href="/publications" title="Dr. Chi&#039;s publications." class="active-trail active">Publications</a></li>
+<li class="menu-396"><a href="/projects" title="Lab projects">Projects</a></li>
+<li class="menu-395 last"><a href="/people">People</a></li>
+</ul>                
+
+                                    <h2 class="element-invisible">Main menu</h2><ul class="side-nav" id="mobile-demo"><li class="menu-219 first"><a href="/">Home</a></li>
+<li class="menu-390"><a href="/honors" title="Dr. Chi&#039;s honors">Honors</a></li>
+<li class="menu-316 active-trail active"><a href="/publications" title="Dr. Chi&#039;s publications." class="active-trail active">Publications</a></li>
+<li class="menu-396"><a href="/projects" title="Lab projects">Projects</a></li>
+<li class="menu-395 last"><a href="/people">People</a></li>
+</ul>                
+            </div>
+        </nav>
+    </div>
+    <!-- EOF: #header-inside -->
+
+</header>
+<!-- EOF: #header -->
+
+
+<!-- #page -->
+<div id="page" class="clearfix publications-page">
+
+    <!-- #messages-console -->
+        <!-- EOF: #messages-console -->
+
+    
+    <!-- #main-content -->
+    <div id="main-content">
+        <div class="publications-page">
+
+            <div class="row">
+
+
+                <section class="row">
+
+                    <!-- #promoted -->
+                                        <!-- EOF: #promoted -->
+
+                    <!-- #main -->
+                    <div id="main" class="clearfix">
+
+                                                <h1 class="title hide"
+                                                 id="page-title">Publications</h1>                        
+                        <!-- #tabs -->
+                                                    <div class="tabs">
+                                                            </div>
+                                                <!-- EOF: #tabs -->
+
+                        
+                        <!-- #action links -->
+                                                <!-- EOF: #action links -->
+
+                                                      <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <article id="node-1" class="node node-page clearfix node-mt" about="/publications" typeof="foaf:Document">
+            <div class="node-main-content full-width clearfix">
+            <header>
+                  <span property="dc:title" content="Publications" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+              
+       
+
+    </header>
+    
+    <div class="content">
+      <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="container">
+<div class="row">
+<div class="col s12">
+<ul class="tabs"><li class="tab col s3"><a class="active" href="#papers">Papers</a></li>
+<li class="tab col s3"><a href="#books-and-chapters">Books and Chapters</a></li>
+<div class="indicator" style="right: 784px; left: 0px;"></div>
+</ul></div>
+<div id="papers" class="col s12 publications active">
+<div class="search-box">
+<input class="search" placeholder="Search" /><br /><i class="material-icons search-icon">search</i>
+</div>
+<table class="highlight bordered responsive-table"><thead><tr><th data-field="index">
+<button class="sort" data-sort="index"><span>Index</span><span class="sort-icon down"></span></button>
+</th>
+<th data-field="citation">
+<button class="sort" data-sort="citation"><span>Citation</span><span class="sort-icon down"></span></button>
+</th>
+<th data-field="year">
+<button class="sort" data-sort="year"><span>Year</span><span class="sort-icon down"></span></button>
+</th>
+<th data-field="download">Download</th>
+</tr></thead><tbody class="list"><tr><td class="index">1</td>
+<td class="citation">Chi, M. T. H., Kang, S., &amp; Yaghmourian, D. L. (2017). Why students learn more from dialogue- than monologue-videos: Analyses of peer interactions. Journal of the Learning Sciences, 26, 10-50.</td>
+<td class="year">2017</td>
+<td class="link"> <a target="_blank" href="http://dx.doi.org/10.1080/10508406.2016.1204546">PDF</a></td>
+</tr><tr><td class="index">2</td>
+<td class="citation">Chi, M. T. H., &amp; Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. Educational Psychologist, 49, 219-243 (lead article).</td>
+<td class="year">2014</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiWylie2014ICAP.pdf">PDF</a></td>
+</tr><tr><td class="index">3</td>
+<td class="citation">Muldner, K., Lam, R., &amp; Chi, M. T. H. (2013). Comparing learning from human tutoring and from observing. Journal of Educational Psychology. Advance online publication. doi: 10.1037/a0034448.</td>
+<td class="year">2013</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/JEP-Muldner-10-14-2013.pdf">PDF</a></td>
+</tr><tr><td class="index">4</td>
+<td class="citation">Menekse, M., Stump, G., Krause, S., &amp; Chi, M. T. H. (2013). Differentiated overt learning activities for effective instruction in engineering classrooms. Journal of Engineering Education, 102, 346-374. Winner of the 2014 Wickenden Award from the American Society for Engineering Education for the best paper published in JEE in 2013.</td>
+<td class="year">2013</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/JEE-Menekse-7-1-2013.pdf">PDF</a></td>
+</tr><tr><td class="index">5</td>
+<td class="citation">Menekse, M., Stump, G., Krause, S., &amp; Chi, M. T. H. (2013). Beyond hands-on: Some active-learning methods are more effective than others. Journal of Engineering Education Selects—Research in Practice. Nov. p. 45.</td>
+<td class="year">2013</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/JEE_Selects_NOV.pdf">PDF</a></td>
+</tr><tr><td class="index">6</td>
+<td class="citation">Chi, M. T. H., &amp; VanLehn, K. (2012). Seeing deep structure from the interactions of surface features. Educational Psychologist, 47, 177-188.</td>
+<td class="year">2012</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Chi_VanLehnTransferpaper.pdf">PDF</a></td>
+</tr><tr><td class="index">7</td>
+<td class="citation">Chi, M. T. H., Roscoe, R., Slotta, J., Roy, M., &amp; Chase, M. (2012). Misconceived causal explanations for "emergent" processes. Cognitive Science, 36, 1-61.</td>
+<td class="year">2012</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiEtAl2012.pdf">PDF</a></td>
+</tr><tr><td class="index">8</td>
+<td class="citation">Gadgil, S., Nokes, T. J., &amp; Chi, M. T. H. (2011). Effectiveness of holistic mental model confrontation in driving conceptual change, Learning and Instruction, 22, 47-61.</td>
+<td class="year">2011</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Gadgil.pdf">PDF</a></td>
+</tr><tr><td class="index">9</td>
+<td class="citation">Chi, M. T. H., &amp; Roy, M. (2010). How adaptive is an expert human tutor? In V. Aleven, J. Kay, &amp; J. Mostow (Eds.), Intelligent tutoring systems: 10th international conference, ITS 2010, Pittsburgh, PA, USA, June 14-18, 2010, Proceedings, Part I (pp. 401-412). New York, NY: Springer.</td>
+<td class="year">2010</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Chi&amp;Roy2010ITS.pdf">PDF</a></td>
+</tr><tr><td class="index">10</td>
+<td class="citation">Craig, S., Chi, M. T. H., &amp; VanLehn, K. (2009). Improving classroom learning by collaboratively observing human tutoring videos while problem solving. Journal of Educational Psychology, 101, 779-789.</td>
+<td class="year">2009</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Craig_Chi_Vanlehn2009.pdf">PDF</a></td>
+</tr><tr><td class="index">11</td>
+<td class="citation">Chi, M. T. H. (2009). Active-contructive-interactive: a conceptual framework for differentiating learning activities. Topics in Cognitive Science, 1, 73-105.</td>
+<td class="year">2009</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Chi2008ActiveConstInteractive.pdf">PDF</a></td>
+</tr><tr><td class="index">12</td>
+<td class="citation">Chi, M. T. H., &amp; Brem, S. K. (2009). Contrasting Ohlsson's resubsumption theory with Chi's categorical shift theory. Educational Psychologist, 44, 58-63.</td>
+<td class="year">2009</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/chi brem categorical shift theory 2009.pdf">PDF</a></td>
+</tr><tr><td class="index">13</td>
+<td class="citation">Chi, M. T. H., Roy, M., &amp; Hausmann, R. G. M. (2008). Observing tutoring collaboratively: Insights about tutoring effectiveness from vicarious learning. Cognitive Science, 32, 301-341.</td>
+<td class="year">2008</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Chi_Observer_Final_8.07.pdf">PDF</a></td>
+</tr><tr><td class="index">14</td>
+<td class="citation">Roscoe, R. D., &amp; Chi, M. T. H. (2008). Tutor learning: the role of explaining and responding to questions. Instructional Science, 36, 321-350.</td>
+<td class="year">2008</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/roscoe chi tutor learning 2008.pdf">PDF</a></td>
+</tr><tr><td class="index">15</td>
+<td class="citation">Roscoe, R. D., &amp; Chi, M. T. H. (2007). Understanding tutor learning: Knowledge-building and knowledge-telling in peer tutors' explanations and questions.Review of Educational Research, 77, 534-574.</td>
+<td class="year">2007</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Rod_Chi_RER_07.pdf">PDF</a></td>
+</tr><tr><td class="index">16</td>
+<td class="citation">Jeong, H., &amp; Chi, M. T. H. (2007). Knowledge convergence and collaborative learning. Instructional Science, 35, 287-315.</td>
+<td class="year">2007</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Jeong_Chi.pdf">PDF</a></td>
+</tr><tr><td class="index">17</td>
+<td class="citation">Slotta, J. D., &amp; Chi, M. T. H. (2006). Helping students understand challenging topics in science through ontology training. Cognition and Instruction, 24, 261-289.</td>
+<td class="year">2006</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/SlottaChiCogIns2006final.pdf">PDF</a></td>
+</tr><tr><td class="index">18</td>
+<td class="citation">Taylor, R. S., &amp; Chi, M. T. H. (2006). Simulation versus text: Acquisition of implicit and explicit information. Journal of Educational Computing Research, 35, 289-313.</td>
+<td class="year">2006</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Taylor_Chi2006.pdf">PDF</a></td>
+</tr><tr><td class="index">19</td>
+<td class="citation">Chi, M. T. H. (2005). Commonsense conceptions of emergent processes: Why some misconceptions are robust. Journal of the Learning Sciences, 14, 161-199.</td>
+<td class="year">2005</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/EmergJLSpdf.pdf">PDF</a></td>
+</tr><tr><td class="index">20</td>
+<td class="citation">Chi, M. T. H., Siler, S. A., &amp; Jeong, H. (2004). Can tutors monitor students understanding accurately? Cognition and Instruction, 22, 363-387.</td>
+<td class="year">2004</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiSilerJeong2004.pdf">PDF</a></td>
+</tr><tr><td class="index">21</td>
+<td class="citation">Hausmann, R. G. M., Chi, M. T. H., &amp; Roy, M. (2004). Learning from collaborative problem solving: An analysis of three hypothesized mechanisms. In K. Forbus, D. Gentner, &amp; T. Regier (Eds.), Proceedings of the Twenty-Sixth Annual Meeting of the Cognitive Science Society (pp. 547-552). Mahwah, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">2004</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">22</td>
+<td class="citation">Roscoe, R., &amp; Chi, M. T. H. (2004). The influence of the tutee in learning by peer tutoring. In K. Forbus, D. Gentner, &amp; T. Regier (Eds.), Proceedings of the Twenty-Sixth Annual Meeting of the Cognitive Science Society (pp. 1179-1184). Mahwah, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">2004</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">23</td>
+<td class="citation">Hashem, A., Chi, M. T. H., &amp; Friedman, C. P. (2003). Medical errors as a result of specialization. Journal of Biomedical Informatics, 36, 61-69.</td>
+<td class="year">2003</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/HashemChiFriedman.pdf">PDF</a></td>
+</tr><tr><td class="index">24</td>
+<td class="citation">Roy, M., &amp; Chi, M. T. H. (2003). Gender differences in patterns of searching the web. Journal of Educational Computing Research, 29, 335-348.</td>
+<td class="year">2003</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/RoyChi.pdf">PDF</a></td>
+</tr><tr><td class="index">25</td>
+<td class="citation">Roy, M., Taylor, R., &amp; Chi, M. T. H. (2003). Searching for information on-line and off-line: Gender differences among middle school students. Journal of Educational Computing Research, 29, 229-252.</td>
+<td class="year">2003</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/RoyTaylorChi.pdf">PDF</a></td>
+</tr><tr><td class="index">26</td>
+<td class="citation">Chi, M. T. H. (2002). Understanding children’s capacity for abstract reasoning. In Glick (Ed.), Parent’s Companion.</td>
+<td class="year">2002</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">27</td>
+<td class="citation">Hausmann, R. G. M., &amp; Chi, M. T. H. (2002). Can a computer interface support self-explaining?, Cognitive Technology, 7, 4-14.</td>
+<td class="year">2002</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/hausmannchi2002.pdf">PDF</a></td>
+</tr><tr><td class="index">28</td>
+<td class="citation">Chi, M. T. H., Siler, S. A., Jeong, H., Yamauchi, T., &amp; Hausmann, R. G. M. (2001). Learning from human tutoring. Cognitive Science, 25, 471-533.</td>
+<td class="year">2001</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/image3.pdf">PDF</a></td>
+</tr><tr><td class="index">29</td>
+<td class="citation">Chi, M. T. H. (2000). Cognitive understanding levels. In A. E. Kazkin (Ed.), Encyclopedia of Psychology (pp. 146-151). Washington, DC: APA and Oxford University Press.</td>
+<td class="year">2000</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/encyclocog.pdf">PDF</a></td>
+</tr><tr><td class="index">30</td>
+<td class="citation">Chi, M. T. H. (2000). Self-explaining expository texts: The dual processes of generating inferences and repairing mental models. In R. Glaser (Ed.), Advances in Instructional Psychology (pp. 161-238). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">2000</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/advances.pdf">PDF</a></td>
+</tr><tr><td class="index">31</td>
+<td class="citation">Jeong, H., Taylor, R., &amp; Chi, M. T. H. (2000). Learning from a computer workplace simluation. Proceedings of the Twenty-second Annual Meeting of the Cognitive Science Society (pp. 705-710). Mahwah, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">2000</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/papers/Jeong_Chi.pdf">PDF</a></td>
+</tr><tr><td class="index">32</td>
+<td class="citation">Jeong, H., &amp; Chi, M. T. H. (2000). Does collaborative learning lead to the construction of common knowledge? Proceedings of the Twenty-second Annual Meeting of the Cognitive Science Society(pp. 699-704). Mahwah, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">2000</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">33</td>
+<td class="citation">Reiner, M., Slotta, J. D., Chi, M. T. H., &amp; Resnick, L. B. (2000). Naive physics reasoning: A commitment to substance-based conceptions. Cognition and Instruction, 18, 1-34.</td>
+<td class="year">2000</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ReinerSlottaChiResnick.pdf">PDF</a></td>
+</tr><tr><td class="index">34</td>
+<td class="citation">Ferrari, M., &amp; Chi, M. T. H. (1998). The nature of naive explanations of natural selection. International Journal of Science Education, 20, 1231-1256.</td>
+<td class="year">1998</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Ferrari&amp;Chi.pdf">PDF</a></td>
+</tr><tr><td class="index">35</td>
+<td class="citation">Beach, L. R., Chi, M. T. H., Klein, G., Smith, P., &amp; Vicente, K. (1997). Naturalistic decision making and related research lines. In C. E. Zsambok &amp; G. Klein (Eds.), Naturalistic decision making (pp. 29-36). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1997</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">36</td>
+<td class="citation">Chi, M. T. H. (1997). Creativity: Shifting across ontological categories flexibly. In T. B. Ward, S. M. Smith, &amp; J. Vaid (Eds.), Conceptual structures and processes: Emergence, discovery and change (pp. 209-234). Washington, DC: American Psychological Association.</td>
+<td class="year">1997</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Creativity.pdf">PDF</a></td>
+</tr><tr><td class="index">37</td>
+<td class="citation">Chi, M. T. H. (1997). Quantifying qualitative analyses of verbal data: A practical guide. The Journal of the Learning Sciences, 6, 271-315.</td>
+<td class="year">1997</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Verbaldata.pdf">PDF</a></td>
+</tr><tr><td class="index">38</td>
+<td class="citation">Jeong, H., &amp; Chi, M. T. H. (1997). Construction of shared knowledge during collaborative learning. In R. Hall, N, Miyake, &amp; N. Enyedy (Eds.), Proceedings of Computer Support for Collaborative Learning (pp. 124-128). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1997</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">39</td>
+<td class="citation">Jeong, H., Siler, S., &amp; Chi, M. T. H. (1997). Can tutors diagnose students' understanding? In M. G. Shafto &amp; P. Langley (Eds.), Proceedings of the Nineteenth Annual Meeting of the Cognitive Science Society (pp. 959). Mahwah, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1997</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">40</td>
+<td class="citation">Chi, M. T. H. (1996). Constructing self-explanations and scaffolded explanations in tutoring. Applied Cognitive Psychology, 10, 33-49.</td>
+<td class="year">1996</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/selfex96.PDF">PDF</a></td>
+</tr><tr><td class="index">41</td>
+<td class="citation">Slotta, J. D., &amp; Chi, M. T. H. (1996). Understanding constraint-based processes: A precursor to conceptual change in physics. In G.W. Cottrell (Ed.), Proceedings of the Eighteenth Annual Meeting of the Cognitive Science Society (pp. 306-311). Mahwah, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1996</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">42</td>
+<td class="citation">Slotta, J. D., Chi, M. T. H., &amp; Joram, E. (1995). Assessing students misclassifications of physics concepts: An ontological basis for conceptual change. Cognition and Instruction, 13, 373-400.</td>
+<td class="year">1995</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/SlottaChiJoram.pdf">PDF</a></td>
+</tr><tr><td class="index">43</td>
+<td class="citation">Chi, M. T. H., de Leeuw, N., Chiu, M. H., &amp; LaVancher, C. (1994). Eliciting self-explanations improves understanding. Cognitive Science, 18, 439-477.</td>
+<td class="year">1994</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChideLeeuwChiuLaVancher.pdf">PDF</a></td>
+</tr><tr><td class="index">44</td>
+<td class="citation">Chi, M. T. H., Slotta, J. D., &amp; de Leeuw, N. (1994). From things to processes: A theory of conceptual change for learning science concepts. Learning and Instruction, 4, 27-43.</td>
+<td class="year">1994</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiSlottaLeeuw.pdf">PDF</a></td>
+</tr><tr><td class="index">45</td>
+<td class="citation">Larreamendy-Joerns, J., &amp; Chi, M. T. H. (1994). Commentary: Conceptual change as ontological shift. Human Development, 37, 246-256.</td>
+<td class="year">1994</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">46</td>
+<td class="citation">Bedard, J., &amp; Chi, M. T. H. (1993). Expertise in auditing. Auditing: A Journal of Practice and Theory (Supplement 1993), 12, 21-45.</td>
+<td class="year">1993</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">47</td>
+<td class="citation">Chi, M. T. H. (1993). Barriers to conceptual change in learning science concepts: A theoretical conjecture. In W. Kintsch (Ed.), Proceedings of the Fifteenth Annual Meeting of the Cognitive Science Society (pp. 312-317). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1993</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">48</td>
+<td class="citation">Chi, M. T. H. (1993). Experts' vs. novices' knowledge. Current Contents, 15,12.</td>
+<td class="year">1993</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">49</td>
+<td class="citation">Chi, M. T.H., &amp; Slotta, J. D. (1993). The ontological coherence of intuitive physics. Cognition and Instruction, 10, 249-260.</td>
+<td class="year">1993</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">50</td>
+<td class="citation">Leas, R. R., &amp; Chi, M. T. H. (1993). Analyzing diagnostic expertise of competitive swimming coaches. In J. L. Starkes, &amp; F. Allard (Eds.), Advances in psychology: Cognitive issues in motor expertise (pp. 75-94). Amsterdam, The Netherlands: Elsevier Science Publishers B.V.</td>
+<td class="year">1993</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">51</td>
+<td class="citation">Bédard, J., &amp; Chi, M. T. H. (1992). Expertise. Current Directions in Psychological Science, 1, 135-139.</td>
+<td class="year">1992</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Expertise.pdf">PDF</a></td>
+</tr><tr><td class="index">52</td>
+<td class="citation">Chi, M. T. H. (1992). Conceptual change within and across ontological categories: Examples from learning and discovery in science. In R. N. Giere, &amp; H. Feigl (Eds.), Cognitive models of science: Minnesota studies in the philosophy of science,    (pp. 129-186). Minneapolis, MN: University of Minnesota Press.</td>
+<td class="year">1992</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Chi1992.pdf">PDF</a></td>
+</tr><tr><td class="index">53</td>
+<td class="citation">VanLehn, K., Jones, R. M., &amp; Chi, M. T. H. (1992). A model of the self-explanation effect. Journal of the Learning Sciences, 2, 1-59.</td>
+<td class="year">1992</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">54</td>
+<td class="citation">Chi, M. T. H. (1991). Memory development. In M. W. Eysenck, A. W. Ellis, E. B. Hunt, &amp; P. N. Johnson-Laird (Eds.), The Blackwell dictionary of cognitive psychology (pp. 218-222). Cambridge, MA: Basil Blackwell.</td>
+<td class="year">1991</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">55</td>
+<td class="citation">Chi, M. T. H., &amp; Bjork, R. (1991). Modeling expertise. In D. Druckman &amp; R. A. Bjork (Eds.), In the mind's eye: Understanding human performance (pp. 57-79). Washington, DC: National Academies Press.</td>
+<td class="year">1991</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">56</td>
+<td class="citation">Chi, M. T. H., &amp; VanLehn, K. A. (1991). The content of physics self-explanations. Journal of the Learning Sciences, 1, 69-105.</td>
+<td class="year">1991</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiVanLehn.pdf">PDF</a></td>
+</tr><tr><td class="index">57</td>
+<td class="citation">VanLehn, K. A., Jones, R. M., &amp; Chi, M. T. H. (1991). Modeling the self-explanation effects with Cascade 3. In K. J. Hammond, &amp; D. Gentner (Eds.), Proceedings of the Thirteenth Annual Conference of the Cognitive Science Society(pp. 137-142). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1991</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">58</td>
+<td class="citation">Chi, M. T. H. (1989). Assimilating evidence: The key to revision? (Commentary on P. Thagard's Explanatory Coherence paper). Behavioral and Brain Sciences, 12, 470-471.</td>
+<td class="year">1989</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">59</td>
+<td class="citation">Chi, M. T. H., &amp; Bassok, M. (1989). Learning from examples via self-explanations. In L. B. Resnick (Ed.), Knowing, learning, and instruction: Essays in honor of Robert Glaser (pp. 251-282). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1989</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiBassok8.pdf">PDF</a></td>
+</tr><tr><td class="index">60</td>
+<td class="citation">Chi, M. T. H., Bassok, M., Lewis, M., Reimann, P., &amp; Glaser, R. (1989). Self-explanations: How students study and use examples in learning to solve problems. Cognitive Science, 13, 145-182.</td>
+<td class="year">1989</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiBassokLewisReimannGlaser.pdf">PDF</a></td>
+</tr><tr><td class="index">61</td>
+<td class="citation">Chi, M. T. H., Hutchinson, J., &amp; Robin, A. F. (1989). How inferences about novel domain-related concepts can be constrained by structured knowledge. Merrill-Palmer Quarterly, 35, 27-62.</td>
+<td class="year">1989</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiHutchRobin.pdf">PDF</a></td>
+</tr><tr><td class="index">62</td>
+<td class="citation">Reimann, P., &amp; Chi, M. T. H. (1989). Expertise in complex problem solving. In K. J.Gilhooly (Ed.), Human and machine problem solving (pp. 161-192). New York, NY: Perseus Books Group.</td>
+<td class="year">1989</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">63</td>
+<td class="citation">Chi, M. T. H. (1988). Children's lack of access and knowledge reorganization: An example from the concept of animism. In F. E. Weinert &amp; M. Perlmutter (Eds.), Memory development: universal changes and individual differences (pp. 169-194). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1988</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Chi1988KnowledgeAccessReorganization.pdf">PDF</a></td>
+</tr><tr><td class="index">64</td>
+<td class="citation">Glaser, R., &amp; Chi, M. T. H. (1988). Overview. In M. T. H. Chi, R. Glaser, &amp; M. Farr (Eds.), The nature of expertise (pp. xv-xxviii). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1988</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">65</td>
+<td class="citation">Reiner, M., Chi, M. T. H., &amp; Resnick, L. (1988). Naive materialistic belief: An underlying epistemological commitment. Proceedings of the Tenth Annual Conference of the Cognitive Science Society (pp. 544-551). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1988</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">66</td>
+<td class="citation">Resnick, L., &amp; Chi, M. T. H. (1988). Cognitive psychology and science learning. In M. Druger (Ed.), Science for the fun of it: A guide to informal science education (pp. 24-31). Washington, DC: National Science Teachers Association.</td>
+<td class="year">1988</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">67</td>
+<td class="citation">Chi, M. T. H., &amp; Ceci, S. J. (1987). Content knowledge: Its role, representation and restructuring in memory development. Advances in Child Development and Behavior, 20, 91-142.</td>
+<td class="year">1987</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiCeci1987contentknowledge.pdf">PDF</a></td>
+</tr><tr><td class="index">68</td>
+<td class="citation">Chi, M. T. H., &amp; Greeno, J. G. (1987). Cognitive research relevant to education. Psychology and Educational Policy, 517, 39-57.</td>
+<td class="year">1987</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">69</td>
+<td class="citation">Gobbo, C., &amp; Chi, M. T. H. (1986). How knowledge is structured and used by expert and novice children. Cognitive Development, 1, 221-237.</td>
+<td class="year">1986</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/GobboChi.pdf">PDF</a></td>
+</tr><tr><td class="index">70</td>
+<td class="citation">Mitchell, A. A., &amp; Chi, M. T. H. (1986). Measuring knowledge within a domain. In P. Nagy (Ed.), The representation of cognitive structures (pp. 85-116). Toronto, Ontario: Ontario Institute for Studies in Education.</td>
+<td class="year">1986</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">71</td>
+<td class="citation">Rabinowitz, M., &amp; Chi, M. T. H. (1986). An interactive model of strategic processing. In S. J. Ceci (Ed.), Handbook of the Cognitive, Social, and Neuropsychological Aspects of Learning Disabilities (pp. 83-102). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1986</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">72</td>
+<td class="citation">Chi, M. T. H. (1985). Changing conception of sources of memory development. Human Development, 28, 50-56.</td>
+<td class="year">1985</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">73</td>
+<td class="citation">Chi, M. T. H. (1985). Interactive roles of knowledge and strategies in the development of organized sorting and recall. In S. F. Chipman, J. W. Segal, &amp; R. Glaser (Eds.), Thinking and learning skills: Current research and open questions (vol. 2, pp. 457-485). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc. (Abstract reprinted in the Franklin Institute Press, December 1980.)</td>
+<td class="year">1985</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Chi1985KnowledgeStrategies.pdf">PDF</a></td>
+</tr><tr><td class="index">74</td>
+<td class="citation">Chi, M. T. H., &amp; Glaser, R. (1985). Problem solving ability. In R. J. Sternberg (Ed.), Human abilities: An information-processing approach (pp. 227-257). San Francisco, CA: W. H. Freeman &amp; Co.</td>
+<td class="year">1985</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiGlaser10.pdf">PDF</a></td>
+</tr><tr><td class="index">75</td>
+<td class="citation">Chi, M. T. H. (1984). Representing knowledge and metaknowledge: Implications for interpreting metamemory research. In F. E. Weinert &amp; R. Kluwe (Eds.), Learning by thinking (pp. 239-266). Stuttgart, West Germany: Kohlhammor. (Also appeared in F. E. Weinert &amp; R. H. Kluwe (Eds.), (1987). Metacognition, Motivation and Understanding)</td>
+<td class="year">1984</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">76</td>
+<td class="citation">Chi, M. T. H. (1983). Knowledge-derived categorization in young children. In D. R. Rogers &amp; J. A. Sloboda (Eds.), The acquisition of symbolic skills (pp. 327-334). New York, NY: Plenum Press.</td>
+<td class="year">1983</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Chi1983ChildrenCategorization.pdf">PDF</a></td>
+</tr><tr><td class="index">77</td>
+<td class="citation">Chi, M. T. H. (1983). The role of knowledge on problem solving and consumer choice behavior. Advances in consumer research, 10, 569-571.</td>
+<td class="year">1983</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">78</td>
+<td class="citation">Chi, M. T. H., &amp; Koeske, R. (1983). Network representation of a child's dinosaur knowledge. Developmental Psychology, 19, 29-39.</td>
+<td class="year">1983</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiKoeske.pdf">PDF</a></td>
+</tr><tr><td class="index">79</td>
+<td class="citation">Chi, M. T. H. &amp; Rees, E. (1983). A learning framework for development. In M. T. H. Chi (Ed.), Trends in memory development research (vol. 9, pp. 71-107). Basel, Switzerland: S. Karger.</td>
+<td class="year">1983</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">80</td>
+<td class="citation">Chi, M. T. H., &amp; Gallagher, J. D. (1982). Speed of processing: A developmental source of limitation. Topics in Learning and Learning Disabilities, 2, 23-32.</td>
+<td class="year">1982</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">81</td>
+<td class="citation">Chi, M. T. H., Glaser, R., &amp; Rees, E. (1982). Expertise in problem solving. In R. J. Sternberg (Ed.), Advances in the psychology of human intelligence (vol. 1, pp. 7-76). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1982</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiGlaserRees.pdf">PDF</a></td>
+</tr><tr><td class="index">82</td>
+<td class="citation">Chase, W. G., &amp; Chi, M. T. H. (1981). Cognitive skill: Implications for spatial skill in large-scale environments. In J. Harvey (Ed.), Cognition, social behaviors, and the environment (pp. 111-136). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1981</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">83</td>
+<td class="citation">Chi, M. T. H. (1981). Knowledge development and memory performance. In M. Friedman, J. P. Das, &amp; N. O'Conner (Eds.), Intelligence and Learning (pp. 221-230). New York, NY: Plenum Press.</td>
+<td class="year">1981</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">84</td>
+<td class="citation">Chi, M. T. H. (1981). Sources of memory development. Proceedings of the North American Society for the Psychology of Sport and Physical Activity Annual Conference.</td>
+<td class="year">1981</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">85</td>
+<td class="citation">Chi, M. T. H., Feltovich, P., &amp; Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. Cognitive Science, 5, 121-152. (citation classic)</td>
+<td class="year">1981</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ClassicCitation.pdf">PDF</a></td>
+</tr><tr><td class="index">86</td>
+<td class="citation">Chi, M. T. H., &amp; Glaser, R. (1980). The measurement of expertise: Analysis of the development of knowledge and skill as a basis for assessing achievement. In E. L. Baker &amp; E. L. Quellmalz (Eds.), Design, analysis, and policy in testing and evaluation (pp. 37-48). Beverly Hills, CA: Sage Publications. (Abstract published in Evaluation Comment, 1978, 5, 9.)</td>
+<td class="year">1980</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">87</td>
+<td class="citation">Chi, M. T. H. (1979). The growth and development of knowledge. Contemporary Psychology, 24:, 760-761. (Review of P. Ornstein (Ed.), Memory development in children).</td>
+<td class="year">1979</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">88</td>
+<td class="citation">Chi, M. T. H. (1978). Knowledge structures and memory development. In R. Siegler (Ed.), Children's thinking: What develops? (pp. 73-96). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc. Reprinted in: Wozniak, R. H. (1993) Worlds of Childhood (pp. 232-240). New York, NY: Harper Collins College Publishers.</td>
+<td class="year">1978</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Chi.pdf">PDF</a></td>
+</tr><tr><td class="index">89</td>
+<td class="citation">Chi, M. T. H. (1977). Age differences in memory span. Journal of Experimental Child Psychology, 23, 266-281.</td>
+<td class="year">1977</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">90</td>
+<td class="citation">Chi, M. T. H. (1977). Age differences in the speed of processing: A critique. Developmental Psychology, 13, 543-544.</td>
+<td class="year">1977</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">91</td>
+<td class="citation">Kail, R. V., Chi, M. T. H., Ingram, A. L., &amp; Danner, F. W. (1977). Constructive aspects of children's reading comprehension. Child Development, 48, 684-688.</td>
+<td class="year">1977</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">92</td>
+<td class="citation">Chi, M. T. H. (1976). The representation of knowledge. Contemporary Psychology, 21, 784-785. (Review of Norman and Rumelhart's Exploration in Cognition).</td>
+<td class="year">1976</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">93</td>
+<td class="citation">Chi, M. T. H. (1976). Short-term memory limitations in children: Capacity or processing deficits? Memory &amp; Cognition, 4, 559-572.</td>
+<td class="year">1976</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">94</td>
+<td class="citation">Chi, M. T. H. (1975). The development of short-term memory capacity. Doctoral dissertation, Carnegie-Mellon University, Pittsburgh, PA.</td>
+<td class="year">1975</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">95</td>
+<td class="citation">Chi, M. T. H., &amp; Klahr, D. (1975). Span and rate of apprehension in children and adults. Journal of Experimental Child Psychology, 19, 434-439.</td>
+<td class="year">1975</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">96</td>
+<td class="citation">Chi, M. T. H., &amp; Chase, W. G. (1972). Effects of modality and similarity on context recall. Journal of Experimental Psychology, 96, 219-222.</td>
+<td class="year">1972</td>
+<td class="link"> NA</td>
+</tr></tbody></table></div>
+<div id="books-and-chapters" class="col s12 publications" style="display: none;">
+<div class="search-box">
+<input class="search" placeholder="Search" /><br /><i class="material-icons search-icon">search</i>
+</div>
+<table class="highlight bordered responsive-table"><thead><tr><th data-field="index">
+<button class="sort" data-sort="index"><span>Index</span><span class="sort-icon down"></span></button>
+</th>
+<th data-field="citation">
+<button class="sort" data-sort="citation"><span>Citation</span><span class="sort-icon down"></span></button>
+</th>
+<th data-field="year">
+<button class="sort" data-sort="year"><span>Year</span><span class="sort-icon down"></span></button>
+</th>
+<th data-field="download">Download</th>
+</tr></thead><tbody class="list"><tr><td class="index">1</td>
+<td class="citation">Chi, M. T. H., &amp; Menekse, M. (2015). Dialogue patterns that promote learning. In L. B. Resnick, C. Asterhan, &amp; S. N. Clarke (Eds.), Socializing intelligence through academic talk and dialogue (Ch. 21, pp. 263-274). Washington, DC: AERA.</td>
+<td class="year">2015</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiMuhsinDialogue.pdf">PDF</a></td>
+</tr><tr><td class="index">2</td>
+<td class="citation">Wylie, R., &amp; Chi, M. T. H. (2014). The Self-explanation principle in multimedia learning. In R. E. Mayer (Ed.), The Cambridge handbook of multimedia learning (2nd ed., pp. 413-432). New York, NY: Cambridge University Press.</td>
+<td class="year">2014</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Wylie_Chi_SelfExplanation.pdf">PDF</a></td>
+</tr><tr><td class="index">3</td>
+<td class="citation">Chiu, J. L., &amp; Chi, M. T. H. (2014). Supporting self-explanation in the classroom. In V. A. Benassi, C. E. Overson, &amp; C. M. Hakala (Eds.), Applying science of learning in education: Infusing psychological science into the curriculum. Retrievable from the Society for the Teaching of Psychology website</td>
+<td class="year">2014</td>
+<td class="link"> <a target="_blank" href="http://teachpsych.org/ebooks/asle2014/index.php">PDF</a></td>
+</tr><tr><td class="index">4</td>
+<td class="citation">Chi, M. T. H. (2013). Two kinds and four sub-types of misconceived knowledge, ways to change it, and the learning outcomes. In S. Vosniadou (Ed.), International handbook of research on conceptual change (2nd ed., pp. 49-70). New York, NY: Routledge Press.</td>
+<td class="year">2013</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/IHRCC-Vosniadou2013-Chapter3-Chi.pdf">PDF</a></td>
+</tr><tr><td class="index">5</td>
+<td class="citation">Chi, M. T. H. (2013). Learning from observing experts. In J. J. Staszewski (Ed.), Expertise and skill acquisition: The impact of William G. Chase (pp. 1-28). New York, NY: Psychology Press.</td>
+<td class="year">2013</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Learning_from_Observing.pdf">PDF</a></td>
+</tr><tr><td class="index">6</td>
+<td class="citation">Chi, M. T. H., Kristensen, A. K., &amp; Roscoe, R. (2012). Misunderstanding emergent causal mechanism in natural selection. In K. Rosengren, S. Brem, &amp; G. Sinatra (Eds.), Evolution challenges: Integrating research and practice in teaching and learning about evolution (pp. 145-173). New York, NY: Oxford University Press.</td>
+<td class="year">2012</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiKristensenRoscoe2012.pdf">PDF</a></td>
+</tr><tr><td class="index">7</td>
+<td class="citation">Fonseca, B., &amp; Chi, M. T. H. (2011). The self-explanation effect: A constructive learning activity. In R. E. Mayer, &amp; P. A. Alexander (Eds.), The handbook of research on learning and instruction (pp. 296-321). New York, NY: Routledge Press.</td>
+<td class="year">2011</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/chiSeInstruction.pdf">PDF</a></td>
+</tr><tr><td class="index">8</td>
+<td class="citation">Chi, M. T. H. (2011). Theoretical perspectives, methodological approaches, and trends in the study of expertise. In Y. Li. (Ed.), Expertise in mathematics instruction: An international perspective (2nd ed., pp. 17-39). New York, NY: Springer.</td>
+<td class="year">2011</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/LiChapter.pdf">PDF</a></td>
+</tr><tr><td class="index">9</td>
+<td class="citation">Nokes, T., Schunn, C., &amp; Chi, M. T. H. (2010). Problem solving and human expertise. In P. Peterson, E. Baker, &amp; B. McGaw (Eds.), International Encyclopedia of Education (3rd ed., pp. 265-272). Oxford, England: Elsevier Ltd.</td>
+<td class="year">2010</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Nokes, Schunn, &amp; Chi, 2010.pdf">PDF</a></td>
+</tr><tr><td class="index">10</td>
+<td class="citation">Chi, M. T. H. (2008). Three types of conceptual change: Belief revision, mental model transformation, and categorical shift. In S. Vosniadou (Ed.), Handbook of research on conceptual change (pp. 61-82). Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">2008</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Chi_concpetualchangechapter.pdf">PDF</a></td>
+</tr><tr><td class="index">11</td>
+<td class="citation">Chi, M. T. H. (2006). Methods to assess the representations of experts' and novices' knowledge. In K. A. Ericsson, N. Charness, P. Feltovich, &amp; R. Hoffman (Eds.), Cambridge handbook of expertise and expert performance (pp. 167-184). New York, NY: Cambridge University Press.</td>
+<td class="year">2006</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Chpt10ExprtseInclEdits_pdf.pdf">PDF</a></td>
+</tr><tr><td class="index">12</td>
+<td class="citation">Chi, M. T. H. (2006). Two approaches to the study of experts' characteristics. In K. A. Ericsson, N. Charness, P. Feltovich, &amp; R. Hoffman (Eds.), The Cambridge handbook of expertise and expert performance (pp. 121-30), New York, NY: Cambridge University Press.</td>
+<td class="year">2006</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Chpt_2_Expertise_pdf.pdf">PDF</a></td>
+</tr><tr><td class="index">13</td>
+<td class="citation">Chi, M. T. H., &amp; Ohlsson, S. (2005). Complex declarative learning. In K. J. Holyoak, &amp; R. G. Morrison (Eds.), The Cambridge handbook of thinking and reasoning (pp. 371-399). New York, NY: Cambridge University Press.</td>
+<td class="year">2005</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/Handbook_Chapter_with_Din.pdf">PDF</a></td>
+</tr><tr><td class="index">14</td>
+<td class="citation">Roy, M., &amp; Chi, M. T. H. (2005). Self-explanation in a multi-media context. In R. Mayer (Ed.), The Cambridge handbook of multimedia learning (pp. 271-286). New York, NY: Cambridge University Press.</td>
+<td class="year">2005</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/MultiM_chapter_final.pdf">PDF</a></td>
+</tr><tr><td class="index">15</td>
+<td class="citation">Chi, M. T. H., &amp; Hausmann, R. G. M. (2003). Do radical discoveries require ontological shifts? In L. Shavinina (Ed.), International handbook on innovation (pp. 430-444). Oxford, England: Elsevier Science Ltd.</td>
+<td class="year">2003</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/chi2003.pdf">PDF</a></td>
+</tr><tr><td class="index">16</td>
+<td class="citation">deLeeuw, N., &amp; Chi, M. T. H. (2003). Self-explanation: Enriching a situation model or repairing a domain model? In G. M. Sinatra, &amp; P. R. Pintrich (Eds.), Intentional conceptual change (pp. 55-78). Mahwah, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">2003</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/LeeuwChi.pdf">PDF</a></td>
+</tr><tr><td class="index">17</td>
+<td class="citation">Chi, M. T. H., &amp; Roscoe, R. D. (2002). The processes and challenges of conceptual change. In M. Limon and L. Mason (Eds.), Reconsidering conceptual change: Issues in theory and practice (pp. 3-27). Dordrecht, Netherlands: Kluwer Academic Publishers.</td>
+<td class="year">2002</td>
+<td class="link"> <a target="_blank" href="/themes/chilab/public/publication_files/ChiRoscoe.pdf">PDF</a></td>
+</tr><tr><td class="index">18</td>
+<td class="citation">Durso, F. T., Nickerson, R. S., Schvaneveldt, R. W., Dumais, S. T., Lindsay, D, S., &amp; Chi, M. T. H. (Eds.) (1999). Handbook of applied cognition. West Sussex, England: John Wiley &amp; Sons.</td>
+<td class="year">1999</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">19</td>
+<td class="citation">Chi, M. T. H., Glaser, R., &amp; Farr, M. (Eds.). (1988). The nature of expertise. Hillsdale, NJ: Lawrence Erlbaum Associates, Inc.</td>
+<td class="year">1988</td>
+<td class="link"> NA</td>
+</tr><tr><td class="index">20</td>
+<td class="citation">Chi, M. T. H. (Ed.). (1983). Trends in memory development research (Vol. 9). Basel, Switzerland: Karger Publishers.</td>
+<td class="year">1983</td>
+<td class="link"> NA</td>
+</tr></tbody></table></div>
+</div>
+</div>
+</div></div></div>    </div>
+
+    
+      </div>
+
+</article>  </div>
+</div>
+  </div>
+                                                    
+                    </div>
+                    <!-- EOF:#main -->
+
+                </section>
+
+                
+            </div>
+
+        </div>
+    </div>
+    <!-- EOF:#main-content -->
+
+</div>
+<!-- EOF: #page -->
+
+
+
+    <div id="subfooter" class="clearfix">
+        <div class="container">
+
+            <!-- #subfooter-inside -->
+            <div id="subfooter-inside" class="clearfix">
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- #subfooter-left -->
+                                                <!-- EOF: #subfooter-left -->
+                    </div>
+                    <div class="col-md-8">
+                        <!-- #subfooter-right -->
+                                                    <div class="subfooter-area right">
+                                  <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+                            </div>
+                        
+                                                    <!-- #credits -->
+                            <div class="subfooter-area">
+                                <div class="block">
+                                        <p>Chilab is at ASU. <a href="http://chilab.asu.edu/index.html" target="_blank">Here</a>.</p></div>
+                            </div>
+                            <!-- EOF: #credits -->
+                                                <!-- EOF: #subfooter-right -->
+                    </div>
+                </div>
+            </div>
+            <!-- EOF: #subfooter-inside -->
+
+        </div>
+    </div><!-- EOF:#subfooter -->
+  </body>
+</html>

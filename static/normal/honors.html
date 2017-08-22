@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="HandheldFriendly" content="true" />
+<link rel="shortlink" href="/node/6" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/honors" />
+<meta name="MobileOptimized" content="width" />
+  <title>Honors | Chilab</title>
+  <style type="text/css" media="all">
+@import url("/modules/system/system.base.css?");
+@import url("/modules/system/system.menus.css?");
+@import url("/modules/system/system.messages.css?");
+@import url("/modules/system/system.theme.css?");
+</style>
+<style type="text/css" media="all">
+@import url("/modules/comment/comment.css?");
+@import url("/modules/field/theme/field.css?");
+@import url("/modules/node/node.css?");
+@import url("/modules/search/search.css?");
+@import url("/modules/user/user.css?");
+@import url("/sites/all/modules/views/css/views.css?");
+</style>
+<style type="text/css" media="all">
+@import url("/sites/all/modules/ctools/css/ctools.css?");
+@import url("/themes/chilab/js/meanmenu/meanmenu.css?");
+</style>
+<style type="text/css" media="all">
+@import url("/themes/chilab/css/materialize.min.css?");
+@import url("/themes/chilab/css/icon.css?");
+@import url("/themes/chilab/style.css?");
+</style>
+
+<!--[if (IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="/themes/chilab/ie9.css?" media="all" />
+<![endif]-->
+<style type="text/css" media="all">
+@import url("/themes/chilab/local.css?");
+</style>
+
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="/misc/drupal.js?"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+		$(window).scroll(function() {
+			if($(this).scrollTop() != 0) {
+				$("#toTop").addClass("show");	
+			} else {
+				$("#toTop").removeClass("show");
+			}
+		});
+		
+		$("#toTop").click(function() {
+			$("body,html").animate({scrollTop:0},800);
+		});	
+		
+		});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+
+			var	headerTopHeight = $("#header-top").outerHeight(),
+			headerHeight = $("#header").outerHeight();
+			
+			$(window).scroll(function() {
+			if(($(this).scrollTop() > headerTopHeight+headerHeight) && ($(window).width() > 767)) {
+				$("body").addClass("onscroll");
+				if (($("#site-name").length > 0) && ($("#logo").length > 0)) {
+					$(".onscroll #logo").addClass("hide");
+				}
+
+				if ($("#banner").length > 0) { 
+ 					$("#banner").css("marginTop", (headerHeight)+"px");
+				} else if ($("#page-intro").length > 0) {
+					$("#page-intro").css("marginTop", (headerHeight)+"px");
+				} else {
+					$("#page").css("marginTop", (headerHeight)+"px");
+				}
+			} else {
+				$("body").removeClass("onscroll");
+				$("#logo").removeClass("hide");
+				$("#page,#banner,#page-intro").css("marginTop", (0)+"px");
+			}
+			});
+		});
+//--><!]]>
+</script>
+<script type="text/javascript" src="/themes/chilab/js/meanmenu/jquery.meanmenu.fork.js?"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) {
+
+			$("#main-navigation .sf-menu, #main-navigation .content>ul.menu, #main-navigation ul.main-menu").wrap("<div class='meanmenu-wrapper'></div>");
+			$("#main-navigation .meanmenu-wrapper").meanmenu({
+				meanScreenWidth: "767",
+				meanRemoveAttrs: true,
+				meanMenuContainer: "#header-inside",
+				meanMenuClose: ""
+			});
+
+			$("#header-top .sf-menu, #header-top .content>ul.menu").wrap("<div class='header-top-meanmenu-wrapper'></div>");
+			$("#header-top .header-top-meanmenu-wrapper").meanmenu({
+				meanScreenWidth: "767",
+				meanRemoveAttrs: true,
+				meanMenuContainer: "#header-top-inside",
+				meanMenuClose: ""
+			});
+
+		});
+//--><!]]>
+</script>
+<script type="text/javascript" src="/themes/chilab/js/materialize.min.js?"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"chilab","theme_token":"HGJUbFQTW-rBYDlJO6Cn9BOqYY9AO-yAT1ZaWQLZnEY","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"0":1,"1":1,"themes\/chilab\/js\/meanmenu\/jquery.meanmenu.fork.js":1,"2":1,"themes\/chilab\/js\/materialize.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"themes\/chilab\/js\/meanmenu\/meanmenu.css":1,"themes\/chilab\/css\/materialize.min.css":1,"themes\/chilab\/css\/icon.css":1,"themes\/chilab\/style.css":1,"themes\/chilab\/ie9.css":1,"themes\/chilab\/local.css":1}}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-6 node-type-page no-banner sff-7 slff-7 hff-7 pff-7 form-style-1" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+        <div id="toTop"><i class="fa fa-angle-up"></i></div>
+
+
+<!-- #header -->
+<header id="header" class="clearfix">
+
+    <!-- #header-inside -->
+
+    <div class="row header-row">
+        <nav>
+            <div class="nav-wrapper col l10 offset-l1 s12">
+
+                                        <a class="brand-logo" href="/" title="Home" rel="home"> <img
+                                    src="/themes/chilab/logo.png" alt="Home"/> </a>
+                
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+                                    <h2 class="element-invisible">Main menu</h2><ul class="right hide-on-med-and-down" id="nav-mobile"><li class="menu-219 first"><a href="/">Home</a></li>
+<li class="menu-390 active-trail active"><a href="/honors" title="Dr. Chi&#039;s honors" class="active-trail active">Honors</a></li>
+<li class="menu-316"><a href="/publications" title="Dr. Chi&#039;s publications.">Publications</a></li>
+<li class="menu-396"><a href="/projects" title="Lab projects">Projects</a></li>
+<li class="menu-395 last"><a href="/people">People</a></li>
+</ul>                
+
+                                    <h2 class="element-invisible">Main menu</h2><ul class="side-nav" id="mobile-demo"><li class="menu-219 first"><a href="/">Home</a></li>
+<li class="menu-390 active-trail active"><a href="/honors" title="Dr. Chi&#039;s honors" class="active-trail active">Honors</a></li>
+<li class="menu-316"><a href="/publications" title="Dr. Chi&#039;s publications.">Publications</a></li>
+<li class="menu-396"><a href="/projects" title="Lab projects">Projects</a></li>
+<li class="menu-395 last"><a href="/people">People</a></li>
+</ul>                
+            </div>
+        </nav>
+    </div>
+    <!-- EOF: #header-inside -->
+
+</header>
+<!-- EOF: #header -->
+
+
+<!-- #page -->
+<div id="page" class="clearfix default">
+
+    <!-- #messages-console -->
+        <!-- EOF: #messages-console -->
+
+    
+    <!-- #main-content -->
+    <div id="main-content">
+        <div class="default">
+
+            <div class="row">
+
+
+                <section class="row">
+
+                    <!-- #promoted -->
+                                        <!-- EOF: #promoted -->
+
+                    <!-- #main -->
+                    <div id="main" class="clearfix">
+
+                                                <h1 class="title hide"
+                                                 id="page-title">Honors</h1>                        
+                        <!-- #tabs -->
+                                                    <div class="tabs">
+                                                            </div>
+                                                <!-- EOF: #tabs -->
+
+                        
+                        <!-- #action links -->
+                                                <!-- EOF: #action links -->
+
+                                                      <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <article id="node-6" class="node node-page clearfix node-mt" about="/honors" typeof="foaf:Document">
+            <div class="node-main-content full-width clearfix">
+            <header>
+                  <span property="dc:title" content="Honors" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+              
+       
+
+    </header>
+    
+    <div class="content">
+      <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="container honors-page">
+<div class="row">
+<ul class="honors with-header collection"><li class="collection-header honors-header">
+<h5>Awards and Recognition</h5>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">1977 - 1982</span>
+<p class="description">Spencer Fellowship<br />
+Awarded by the National Academy of Education, for promising research and professional development contributing to the theory and practice of education</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">1982</span>
+<p class="description">Boyd R. McCandless Young Scientist Award<br />
+Presented by Division 7 of the American Psychological Association (APA), for distinguished theoretical contribution and programmatic research efforts in the field of developmental psychology</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2001</span>
+<p class="description">Cited in Carnegie-Mellon University's Centennial Magazine as one of its 87 most successful undergraduates</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2006</span>
+<p class="description">Chancellor's Distinguished Research Award, Senior Category<br />
+For "innovative research of landmark impact in several research areas", University of Pittsburgh</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2010</span>
+<p class="description">Elected to the National Academy of Education</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2013</span>
+<p class="description">Faculty Achievement Award for Best Professional Application: Arizona State University</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2013</span>
+<p class="description">Faculty Achievement Award for Defining Edge Research and Creative Work: Professional Application, Arizona State University</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2013</span>
+<p class="description">Sylvia Scribner Award: Presented by the American Educational Research Association (AERA), Learning and Instruction Division, for research that represents significant advancement in our understanding of learning and instruction</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2014</span>
+<p class="description">Wickenden Award: Presented by the American Society for Engineering Education (ASEE), for "the highest standards of scholarly research in engineering education published in the Journal of Engineering Education in 2013"</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2015</span>
+<p class="description">Named the Inaugural Dorothy Bray Endowed Professor of Science and Teaching for Mary Lou Fulton Teachers College, Arizona State University</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2015</span>
+<p class="description">Thorndike Career Achievement Award: Presented by the American Psychological Association (APA) for lifetime contribution in research</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2016</span>
+<p class="description">Distinguished Contributions to Research in Education Award: Presented by the American Educational Research Association (AERA) for outstanding achievement and success in education research</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2016</span>
+<p class="description">Elected to the American Academy of Arts &amp; Sciences</p>
+</li>
+</ul><ul class="honors with-header collection"><li class="collection-header honors-header">
+<h5>Fellow (all elected or invited)</h5>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">1986</span>
+<p class="description">Fellow, Division 7, American Psychological Association</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">1988</span>
+<p class="description">Fellow, Board of Ethnic Minority Affairs, American Psychological Association</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">1996 - 1997</span>
+<p class="description">Resident Fellow, Center for Advanced Study in the Behavioral Sciences, Stanford, CA</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">1992</span>
+<p class="description">Fellow, Association for Psychological Science</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2002 - 2005</span>
+<p class="description">Resident Fellow, Center for Philosophy of Science, University of Pittsburgh</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2002</span>
+<p class="description">Fellow, Cognitive Science Society</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2013</span>
+<p class="description">Fellow, American Educational Research Association</p>
+</li>
+</ul><ul class="honors with-header collection"><li class="collection-header honors-header">
+<h5>Keynote Speaker at Conferences (excluding declined ones)</h5>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">1993</span>
+<p class="description">The 10th International Conference on Machine Learning, Amherst, MA</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">1995</span>
+<p class="description">The 17th Annual Conference of the Cognitive Science Society, Pittsburgh, PA</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">1999</span>
+<p class="description">Annual meeting of the American Society for Engineering Education, St. Louis, MO</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2003</span>
+<p class="description">The 10th European Association for Research on Learning and Instruction, Padova, Italy.</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2008</span>
+<p class="description">The VI European Meeting in Conceptual Change, Turku, Finland</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2014</span>
+<p class="description">"Conceptual Change in Science,” on the plenary panel of the International Conference on Conceptual Change, University of Bologna, Italy</p>
+</li>
+</ul><ul class="honors with-header collection"><li class="collection-header honors-header">
+<h5>Special Citation and Recognition of Scholarly Work</h5>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">1993</span>
+<p class="description">Chi, Feltovich &amp; Glaser (1981), was identified as a Citation Classic.</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2000</span>
+<p class="description">Chi (1997), was noted in the editorial of the Journal of the Learning Sciences (Kolodner, 2000, p. 2), as one of its "most cited papers" on methodology.</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2002</span>
+<p class="description">Highlighted in "Reach for the Stars," an American Educational Research Association basic research in reading and literacy poster session that showcased the research careers of distinguished scholars.</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2004</span>
+<p class="description">Chi (1978) was voted as the 7th "Most Fascinating Studies in Child Psychology", as surveyed by the Society for Research in Child Development, published in their Oct. newsletter.</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2006</span>
+<p class="description">Two of my papers are among the top 10 most highly cited papers published in Cognitive Science: Chi, Feltovich &amp; Glaser (1981), and Chi, Bassok, Lewis, Reimann, &amp; Glaser (1989), are ranked 1st and 7th , respectively. (from Rob Goldstone's 2006 Editor's report).</p>
+</li>
+<li class="honors-item collection-item">
+                <span class="date">2007</span>
+<p class="description">Noted by the journal Auditing: A Journal of Practice and Theory, as one of its most frequently cited authors</p>
+</li>
+</ul></div>
+</div>
+</div></div></div>    </div>
+
+    
+      </div>
+
+</article>  </div>
+</div>
+  </div>
+                                                    
+                    </div>
+                    <!-- EOF:#main -->
+
+                </section>
+
+                
+            </div>
+
+        </div>
+    </div>
+    <!-- EOF:#main-content -->
+
+</div>
+<!-- EOF: #page -->
+
+
+
+    <div id="subfooter" class="clearfix">
+        <div class="container">
+
+            <!-- #subfooter-inside -->
+            <div id="subfooter-inside" class="clearfix">
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- #subfooter-left -->
+                                                <!-- EOF: #subfooter-left -->
+                    </div>
+                    <div class="col-md-8">
+                        <!-- #subfooter-right -->
+                                                    <div class="subfooter-area right">
+                                  <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+                            </div>
+                        
+                                                    <!-- #credits -->
+                            <div class="subfooter-area">
+                                <div class="block">
+                                        <p>Chilab is at ASU. <a href="http://chilab.asu.edu/index.html" target="_blank">Here</a>.</p></div>
+                            </div>
+                            <!-- EOF: #credits -->
+                                                <!-- EOF: #subfooter-right -->
+                    </div>
+                </div>
+            </div>
+            <!-- EOF: #subfooter-inside -->
+
+        </div>
+    </div><!-- EOF:#subfooter -->
+  </body>
+</html>

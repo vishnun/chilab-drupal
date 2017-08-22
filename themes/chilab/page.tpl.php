@@ -57,7 +57,7 @@
                         <a class="brand-logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> <img
                                     src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/> </a>
                 <?php endif; ?>
-
+		<div id="headname" >Learning and Congnition Lab</div>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
                 <?php if ($page['navigation']) : ?>
@@ -247,36 +247,58 @@
             <div id="subfooter-inside" class="clearfix">
                 <div class="row">
                     <div class="col-md-4">
-                        <!-- #subfooter-left -->
-                        <?php if ($page['sub_footer_left']): ?>
-                            <div class="subfooter-area left">
-                                <?php print render($page['sub_footer_left']); ?>
-                            </div>
-                        <?php endif; ?>
-                        <!-- EOF: #subfooter-left -->
-                    </div>
-                    <div class="col-md-8">
                         <!-- #subfooter-right -->
-                        <?php if ($page['footer']): ?>
-                            <div class="subfooter-area right">
-                                <?php print render($page['footer']); ?>
-                            </div>
-                        <?php endif; ?>
 
                         <?php if (theme_get_setting('credits_display')): ?>
                             <!-- #credits -->
                             <div class="subfooter-area">
                                 <div class="block">
-                                        <p>Chilab is at ASU. <a href="http://chilab.asu.edu/index.html" target="_blank">Here</a>.</p></div>
+				<p><img style="max-width: 340px;max-height: 80px;" alt="Institute for the Science of Teaching &amp; Learning" src="/themes/chilab/images/istl-logo.png"></p>
+				<div class="address">1000 S. Forest Mall</div>
+				<div class="address">Tempe, AZ 85281<br> &nbsp; </div>
                             </div>
                             <!-- EOF: #credits -->
                         <?php endif; ?>
                         <!-- EOF: #subfooter-right -->
                     </div>
-                </div>
+</div>
+		    <div class="col-md-4">
+			<div class="subfooter-area">
+                                <div class="block">
+					<br>
+					<span style="padding: 6px 10px 0px 10px;"><a href="http://istl.asu.edu" target="_blank">Institue of Science of Teaching And Learning</a></span>
+                    		</div>
+			</div>
+		    </div>
+ 		    <div class="col-md-4">
+			links2
+                    </div>
             </div>
             <!-- EOF: #subfooter-inside -->
 
         </div>
     </div><!-- EOF:#subfooter -->
+<style>
+#subfooter-inside a:link, #subfooter-inside a:visited {
+    color: #EDEDED;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px dotted #EDEDED;
+}
+.address{
+color: #EDEDED;
+}
+#headname{
+	padding-left: 130px;
+        font-size: 32px;
+        display: inline-block;
+                  
+}
+@media only screen and (max-width: 992px)
+{
+   #headname{
+    display:none !important;
+   }
+}
+</style>
 <?php endif; ?>
