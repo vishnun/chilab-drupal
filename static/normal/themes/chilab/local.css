@@ -47,10 +47,6 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     color: #fff;
 }
 
-.tabs {
-    height: auto;
-}
-
 .tabs .tab a {
     color: rgba(105, 21, 21, 0.7);
 }
@@ -96,16 +92,11 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     height: 600px;
 }
 
-.container.home-container {
-    margin-top: 20px;
-}
-
 .home-page .parallax-title {
     position: relative;
     z-index: 2;
     margin-top: 100px;
 }
-
 .home-page .parallax-title img {
     display: block;
     position: relative;
@@ -115,34 +106,4 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     min-height: auto;
     transform: none;
     left: 0;
-}
-
-.people-page .carousel-item .pic-container {
-    height: 600px;
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-}
-
-.people-page .carousel.carousel-slider, .people-page .carousel .carousel-item {
-    height: 600px !important;
-}
-
-.people-page .carousel .carousel-item img.lab-pic {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: -80px;
-}
-
-@media (max-width: 767px) {
-    .people-page .carousel.carousel-slider, .people-page .carousel .carousel-item {
-        height: 400px !important;
-    }
-    .people-page .carousel-item .pic-container {
-        height: 400px;
-    }
-    .people-page .carousel .carousel-item img.lab-pic {
-        margin-top: 0px;
-    }
 }
