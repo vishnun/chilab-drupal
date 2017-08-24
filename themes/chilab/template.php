@@ -272,6 +272,7 @@ function chilab_preprocess_html(&$variables) {
     //     drupal_add_css($cdn, array('type' => 'external'));
     // }
 
+
 	/**
 	 * Add Javascript for enable/disable scrollTop action.
 	 */
@@ -403,8 +404,9 @@ function chilab_preprocess_page(&$variables) {
 	$variables['page']['class'] = "default";
 
 
-
 	$breadcrumb = theme('breadcrumb', array('breadcrumb' => drupal_get_breadcrumb()));
+
+	drupal_add_js(drupal_get_path('theme', 'chilab') .'/js/common.js', array('preprocess' => false));
 
 	if (drupal_get_path_alias() == 'publications') {
         $variables['page']['class'] = "publications-page";
@@ -415,6 +417,11 @@ function chilab_preprocess_page(&$variables) {
     if (drupal_get_path_alias() == 'people') {
         $variables['page']['class'] = "people-page";
         drupal_add_js(drupal_get_path('theme', 'chilab') .'/js/people.js', array('preprocess' => false));
+    }
+
+    if (drupal_get_path_alias() == 'bio') {
+        $variables['page']['class'] = "bio-page";
+        drupal_add_js(drupal_get_path('theme', 'chilab') .'/js/bio.js', array('preprocess' => false));
     }
 
     if (drupal_get_path_alias() == 'home') {

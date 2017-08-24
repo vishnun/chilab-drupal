@@ -57,7 +57,7 @@
                         <a class="brand-logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> <img
                                     src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/> </a>
                 <?php endif; ?>
-		<div id="headname" >Learning and Congnition Lab</div>
+		        <span id="headname" >Learning and Congnition Lab</span>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
                 <?php if ($page['navigation']) : ?>
@@ -288,32 +288,4 @@
 
         </div>
     </div><!-- EOF:#subfooter -->
-<style>
-
-.subfooter-area .footer-links li {
-  margin-bottom: 10px;
-}
-
-#subfooter-inside a:link, #subfooter-inside a:visited {
-    color: #EDEDED;
-    font-size: 16px;
-    text-decoration: none;
-    border-bottom: 1px dotted #EDEDED;
-}
-.address{
-    color: #EDEDED;
-}
-#headname{
-	padding-left: 130px;
-        font-size: 32px;
-        display: inline-block;
-                  
-}
-@media only screen and (max-width: 992px)
-{
-   #headname{
-    display:none !important;
-   }
-}
-</style>
 <?php endif; ?>

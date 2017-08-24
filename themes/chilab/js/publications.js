@@ -1,8 +1,5 @@
 $ = jQuery;
 $(function () {
-    $(".button-collapse").sideNav();
-
-
     var options = {
         valueNames: ['index', 'year', 'citation']
     };

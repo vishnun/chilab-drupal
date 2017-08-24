@@ -117,6 +117,19 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     left: 0;
 }
 
+/* headlinks used on bio page. */
+#headlink {
+    display:none;
+    font-size:16px !important;
+    position: fixed;
+    top: 130px;
+    left: 60px;
+}
+
+#headlink2 {
+    font-size:24px !important;
+}
+
 .people-page .carousel-item .pic-container {
     height: 600px;
     overflow: hidden;
