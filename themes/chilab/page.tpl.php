@@ -246,39 +246,54 @@
             <!-- #subfooter-inside -->
             <div id="subfooter-inside" class="clearfix">
                 <div class="row">
-                    <div class="col-md-4">
+
+
+                    <div class="col m4">
                         <!-- #subfooter-right -->
 
                         <?php if (theme_get_setting('credits_display')): ?>
                             <!-- #credits -->
                             <div class="subfooter-area">
                                 <div class="block">
-				<p><img style="max-width: 340px;max-height: 80px;" alt="Institute for the Science of Teaching &amp; Learning" src="/themes/chilab/images/istl-logo.png"></p>
-				<div class="address">1000 S. Forest Mall</div>
-				<div class="address">Tempe, AZ 85281<br> &nbsp; </div>
+                                    <p><img style="max-width: 340px;max-height: 80px;" alt="Institute for the Science of Teaching &amp; Learning" src="./themes/chilab/images/istl-logo.png"></p>
+                                    <div class="address">1000 S. Forest Mall</div>
+                                    <div class="address">Tempe, AZ 85281</div>
+                                </div>
                             </div>
                             <!-- EOF: #credits -->
                         <?php endif; ?>
                         <!-- EOF: #subfooter-right -->
                     </div>
-</div>
-		    <div class="col-md-4">
-			<div class="subfooter-area">
-                                <div class="block">
-					<br>
-					<span style="padding: 6px 10px 0px 10px;"><a href="http://istl.asu.edu" target="_blank">Institue of Science of Teaching And Learning</a></span>
-                    		</div>
-			</div>
-		    </div>
- 		    <div class="col-md-4">
-			links2
+
+
+                    <div class="col m4">
+                        <div class="subfooter-area">
+                            <div class="block">
+                                <ul class="footer-links">
+                                <li><a href="https://istl.asu.edu/" target="_blank">Institue of Science of Teaching And Learning</a></li>
+                                <li><a href="https://www.asu.edu/" target="_blank">Arizona State University</a></li>
+                                <li><a href="https://ies.ed.gov/" target="_blank">Institute of Education Sciences</a></li>
+                                <li><a href="https://nsf.gov/" target="_blank">National Science Foundation</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col m4">
+                        links2
+                    </div>
+                </div>
             </div>
             <!-- EOF: #subfooter-inside -->
 
         </div>
     </div><!-- EOF:#subfooter -->
 <style>
+
+.subfooter-area .footer-links li {
+  margin-bottom: 10px;
+}
+
 #subfooter-inside a:link, #subfooter-inside a:visited {
     color: #EDEDED;
     font-size: 16px;
@@ -286,7 +301,7 @@
     border-bottom: 1px dotted #EDEDED;
 }
 .address{
-color: #EDEDED;
+    color: #EDEDED;
 }
 #headname{
 	padding-left: 130px;
