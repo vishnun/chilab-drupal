@@ -148,7 +148,30 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     margin-top: -80px;
 }
 
+
+.subfooter-area .footer-links li {
+    margin-bottom: 10px;
+}
+
+#subfooter-inside a:link, #subfooter-inside a:visited {
+    color: #EDEDED;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px dotted #EDEDED;
+}
+
+.address{
+    color: #EDEDED;
+}
+
+#headname{
+    padding-left: 130px;
+    font-size: 28px;
+    display: none;
+}
+
 @media (max-width: 767px) {
+
     .people-page .carousel.carousel-slider, .people-page .carousel .carousel-item {
         height: 400px !important;
     }
@@ -157,5 +180,19 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     }
     .people-page .carousel .carousel-item img.lab-pic {
         margin-top: 0px;
+    }
+}
+
+/* below large desktop */
+@media (max-width: 1200px) {
+    #headname{
+        font-size: 16px;
+    }
+}
+
+/* Desktop only */
+@media (min-width: 1024px) {
+    #headname{
+        display: inline-block;
     }
 }
