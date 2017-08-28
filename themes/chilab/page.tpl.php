@@ -1,5 +1,5 @@
 <?php if (theme_get_setting('scrolltop_display')): ?>
-    <div id="toTop"><i class="fa fa-angle-up"></i></div>
+    <div id="toTop"><i class="material-icons">keyboard_arrow_up</i></div>
 <?php endif; ?>
 
 <?php if ($page['header_top_left'] || $page['header_top_right']) : ?>
