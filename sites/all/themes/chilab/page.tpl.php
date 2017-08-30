@@ -245,9 +245,7 @@
 
             <!-- #subfooter-inside -->
             <div id="subfooter-inside" class="clearfix">
-                <div class="row">
-
-
+                <div class="row" style="margin-bottom: 0;">
                     <div class="col m4">
                         <!-- #subfooter-right -->
 
@@ -255,9 +253,8 @@
                             <!-- #credits -->
                             <div class="subfooter-area">
                                 <div class="block">
-                                    <p><img style="max-width: 340px; margin-left: -20px;" alt="Institute for the Science of Teaching &amp; Learning" src="./sites/all/themes/chilab/images/istl-logo.png"></p>
-                                    <div class="address">1000 S. Forest Mall</div>
-                                    <div class="address">Tempe, AZ 85281</div>
+                                    <img style="max-width: 340px; margin-left: -20px;" alt="Institute for the Science of Teaching &amp; Learning" src="./sites/all/themes/chilab/images/istl-logo.png">
+                                    <div class="address">1000 S. Forest Mall, Tempe, AZ 85281</div>
                                 </div>
                             </div>
                             <!-- EOF: #credits -->
@@ -272,15 +269,19 @@
                                 <ul class="footer-links">
                                 <li><a href="https://istl.asu.edu/" target="_blank">Institue of Science of Teaching And Learning</a></li>
                                 <li><a href="https://www.asu.edu/" target="_blank">Arizona State University</a></li>
-                                <li><a href="https://ies.ed.gov/" target="_blank">Institute of Education Sciences</a></li>
-                                <li><a href="https://nsf.gov/" target="_blank">National Science Foundation</a></li>
-
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col m4">
-                        links2
+                        <div class="subfooter-area">
+                            <div class="block">
+                                <ul class="footer-links">
+                                <li><a href="https://ies.ed.gov/" target="_blank">Institute of Education Sciences</a></li>
+                                <li><a href="https://nsf.gov/" target="_blank">National Science Foundation</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
