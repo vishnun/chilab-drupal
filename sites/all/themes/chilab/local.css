@@ -148,7 +148,6 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     margin-top: -80px;
 }
 
-
 .subfooter-area .footer-links li {
     margin-bottom: 10px;
 }
@@ -168,6 +167,22 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     padding-left: 130px;
     font-size: 28px;
     display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+@media (min-width: 767px) {
+    .media-page .media-container .media-video {
+        float: left;
+    }
+    .media-page .media-container .media-text {
+        float: left;
+        width: calc(100% - 430px);
+        margin-left: 40px;
+    }
 }
 
 @media (max-width: 767px) {

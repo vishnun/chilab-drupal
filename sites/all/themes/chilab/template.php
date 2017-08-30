@@ -429,6 +429,10 @@ function chilab_preprocess_page(&$variables) {
         drupal_add_js(drupal_get_path('theme', 'chilab') .'/js/home.js', array('preprocess' => false));
     }
 
+	if (drupal_get_path_alias() == "media") {
+        $variables['page']['class'] = "media-page";
+    }
+
     /**
 	 * Insert variables into the page template.
 	 */
