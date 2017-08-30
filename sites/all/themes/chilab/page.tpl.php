@@ -171,7 +171,7 @@
 
                         <!-- #tabs -->
                         <?php if ($tabs): ?>
-                            <div class="tabs">
+                            <div class="edit-tabs">
                                 <?php print render($tabs); ?>
                             </div>
                         <?php endif; ?>
@@ -255,7 +255,7 @@
                             <!-- #credits -->
                             <div class="subfooter-area">
                                 <div class="block">
-                                    <p><img style="max-width: 340px;max-height: 80px;" alt="Institute for the Science of Teaching &amp; Learning" src="./themes/chilab/images/istl-logo.png"></p>
+                                    <p><img style="max-width: 340px; margin-left: -20px;" alt="Institute for the Science of Teaching &amp; Learning" src="./sites/all/themes/chilab/images/istl-logo.png"></p>
                                     <div class="address">1000 S. Forest Mall</div>
                                     <div class="address">Tempe, AZ 85281</div>
                                 </div>

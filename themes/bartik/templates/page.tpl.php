@@ -194,7 +194,7 @@
       <?php endif; ?>
       <?php print render($title_suffix); ?>
       <?php if ($tabs): ?>
-        <div class="tabs">
+        <div class="content-edit-tabs">
           <?php print render($tabs); ?>
         </div>
       <?php endif; ?>
