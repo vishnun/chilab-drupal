@@ -560,7 +560,7 @@ display: block; background-color: #c2c2c2; right: 0; text-align: center; color: 
 -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 
 nav .brand-logo img {
-	height: 66px;
+	height: 60px;
 }
 
 #footer-logo { margin: 20px auto 0; text-align: center; }

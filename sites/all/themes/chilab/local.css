@@ -12,7 +12,7 @@
 .publications-page .sort-icon.down {
     display: inline-block;
     border-color: black transparent;
-    border-width: 6px 6px 0px 6px;
+    border-width: 6px 6px 0 6px;
     border-style: solid;
     margin-top: 8px;
 }
@@ -173,6 +173,46 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     text-align: center;
 }
 
+.banner {
+    height: 700px;
+    background-size: cover;
+    background: url("images/banner.jpg") 50% 78%;
+    position: relative;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 1;
+}
+
+.banner-title {
+    color: #ececec;
+    margin: 0;
+    padding-top: 60px;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.banner-description {
+    color: white;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 900;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin-top: 20px;
+    max-width: 650px;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+
 
 @media (min-width: 767px) {
     .media-page .media-container .media-video {
@@ -194,7 +234,7 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
         height: 400px;
     }
     .people-page .carousel .carousel-item img.lab-pic {
-        margin-top: 0px;
+        margin-top: 0;
     }
 }
 
