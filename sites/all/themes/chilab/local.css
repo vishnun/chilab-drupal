@@ -117,6 +117,10 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     left: 0;
 }
 
+.home-page .pos-title, .home-page .pos-detail {
+    font-size: 18px;
+}
+
 /* headlinks used on bio page. */
 #headlink {
     display:none;
@@ -174,21 +178,22 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
 }
 
 .banner {
-    height: 700px;
-    background-size: cover;
-    background: url("images/banner.jpg") 50% 78%;
+    height: 400px;
     position: relative;
+    background: url(images/banner.png) no-repeat 50%;
+    background-size: cover;
 }
 
 .banner-content {
+    display: none;
     position: relative;
     z-index: 1;
+    padding-top: 200px;
 }
 
 .banner-title {
     color: #ececec;
     margin: 0;
-    padding-top: 60px;
     font-size: 60px;
     font-weight: 900;
     text-shadow: 0 0 5px rgba(0,0,0,0.5);
@@ -205,14 +210,34 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
 }
 
 .banner-overlay {
+    /*Not using it for now in. Leaving it for future use (I know I shouldn't leave it, but leaving for a newbie just in case) */
+    display: none; /* remove this */
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.4);
 }
 
+.home-page .director-container .title {
+    font-size: 26px;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.home-page .director-container .info-field label {
+    font-size: 20px;
+}
+.home-page .director-container .info-field {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.show-on-small-only {
+    display: none;
+}
 
 @media (min-width: 767px) {
     .media-page .media-container .media-video {
@@ -225,6 +250,40 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     }
 }
 
+/* Desktop only */
+@media (min-width: 1024px) {
+    #headname{
+        display: inline-block;
+    }
+}
+
+
+/* below large desktop */
+@media (max-width: 1200px) {
+    #headname{
+        font-size: 16px;
+    }
+    .banner {
+        height: 300px;
+        background-position: 75% 50%;
+    }
+
+    .banner-content {
+        padding-top: 170px;
+    }
+
+    .banner-title {
+        font-size: 44px;
+    }
+
+    .banner-description {
+        font-size: 24px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+}
+
+
 @media (max-width: 767px) {
 
     .people-page .carousel.carousel-slider, .people-page .carousel .carousel-item {
@@ -236,18 +295,65 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     .people-page .carousel .carousel-item img.lab-pic {
         margin-top: 0;
     }
-}
 
-/* below large desktop */
-@media (max-width: 1200px) {
-    #headname{
-        font-size: 16px;
+    .banner-overlay {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .banner {
+        height: 200px;
+        background-position: 90% 50%;
+    }
+
+    .banner-content {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 30px;
+    }
+
+    .banner-description {
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+    .show-on-small-only {
+        display: block;
     }
 }
 
-/* Desktop only */
-@media (min-width: 1024px) {
-    #headname{
-        display: inline-block;
+@media (max-width: 667px) {
+
+    .people-page .carousel.carousel-slider, .people-page .carousel .carousel-item {
+        height: 400px !important;
+    }
+    .people-page .carousel-item .pic-container {
+        height: 400px;
+    }
+    .people-page .carousel .carousel-item img.lab-pic {
+        margin-top: 0;
+    }
+
+    .banner {
+        background-position: 70% 50%;
+    }
+
+    .banner-title {
+        font-size: 24px;
+    }
+
+    .banner-description {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+    .home-page .director-container .title {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 10px;
     }
 }

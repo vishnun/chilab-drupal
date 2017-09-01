@@ -2,8 +2,8 @@ name = Chilab
 description = A Bootstrap-based, responsive Drupal theme by <a href="http://www.morethanthemes.com/" target="_blank">More than (just) Themes</a>.
 core = 7.x
 
-stylesheets[all][] = css/materialize.min.css
 stylesheets[all][] = css/icon.css
+stylesheets[all][] = css/materialize.min.css
 stylesheets[all][] = style.css
 scripts[] =  js/materialize.min.js
 
