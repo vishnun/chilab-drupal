@@ -123,15 +123,15 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
 
 /* headlinks used on bio page. */
 #headlink {
-    display:none;
-    font-size:16px !important;
+    display: none;
+    font-size: 16px !important;
     position: fixed;
     top: 130px;
     left: 60px;
 }
 
 #headlink2 {
-    font-size:24px !important;
+    font-size: 24px !important;
 }
 
 .people-page .carousel-item .pic-container {
@@ -163,11 +163,11 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     border-bottom: 1px dotted #EDEDED;
 }
 
-.address{
+.address {
     color: #EDEDED;
 }
 
-#headname{
+#headname {
     padding-left: 130px;
     font-size: 28px;
     display: none;
@@ -175,6 +175,10 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
 
 .text-center {
     text-align: center;
+}
+
+.icap-logo {
+    background: url(images/icap-logo.png) no-repeat;
 }
 
 .banner {
@@ -196,7 +200,7 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     margin: 0;
     font-size: 60px;
     font-weight: 900;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .banner-description {
@@ -204,7 +208,7 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     font-size: 24px;
     line-height: 24px;
     font-weight: 900;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
     max-width: 650px;
 }
@@ -230,6 +234,7 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
 .home-page .director-container .info-field label {
     font-size: 20px;
 }
+
 .home-page .director-container .info-field {
     padding-top: 15px;
     font-size: 20px;
@@ -239,10 +244,21 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     display: none;
 }
 
+.projects-page .project-container,
+.projects-page .project-description,
+.projects-page .poster {
+    padding-top: 40px;
+}
+
+.projects-page .project-title {
+    font-size: 70px;
+}
+
 @media (min-width: 767px) {
     .media-page .media-container .media-video {
         float: left;
     }
+
     .media-page .media-container .media-text {
         float: left;
         width: calc(100% - 430px);
@@ -252,17 +268,17 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
 
 /* Desktop only */
 @media (min-width: 1024px) {
-    #headname{
+    #headname {
         display: inline-block;
     }
 }
 
-
 /* below large desktop */
 @media (max-width: 1200px) {
-    #headname{
+    #headname {
         font-size: 16px;
     }
+
     .banner {
         height: 300px;
         background-position: 75% 50%;
@@ -283,15 +299,16 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     }
 }
 
-
 @media (max-width: 767px) {
 
     .people-page .carousel.carousel-slider, .people-page .carousel .carousel-item {
         height: 400px !important;
     }
+
     .people-page .carousel-item .pic-container {
         height: 400px;
     }
+
     .people-page .carousel .carousel-item img.lab-pic {
         margin-top: 0;
     }
@@ -323,6 +340,15 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     .show-on-small-only {
         display: block;
     }
+
+    .projects-page .project-title {
+        font-size: 24px;
+    }
+    .projects-page .project-container,
+    .projects-page .project-description,
+    .projects-page .poster {
+        padding-top: 20px;
+    }
 }
 
 @media (max-width: 667px) {
@@ -330,9 +356,11 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     .people-page .carousel.carousel-slider, .people-page .carousel .carousel-item {
         height: 400px !important;
     }
+
     .people-page .carousel-item .pic-container {
         height: 400px;
     }
+
     .people-page .carousel .carousel-item img.lab-pic {
         margin-top: 0;
     }

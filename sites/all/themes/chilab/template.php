@@ -433,6 +433,10 @@ function chilab_preprocess_page(&$variables) {
         $variables['page']['class'] = "media-page";
     }
 
+	if (drupal_get_path_alias() == "projects") {
+        $variables['page']['class'] = "projects-page";
+    }
+
     /**
 	 * Insert variables into the page template.
 	 */
