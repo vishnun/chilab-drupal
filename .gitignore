@@ -7,6 +7,7 @@ sites/*/private
 tmp
 .idea
 
+static
 
 **.DS_Store
 **/fonts/.DS_Store
