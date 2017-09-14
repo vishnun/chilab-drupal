@@ -1,9 +1,5 @@
 /* Custom CSS overrides */
 
-html {
-    overflow: hidden;
-}
-
 .publications-page button.sort {
     background: transparent;
     border: none;
