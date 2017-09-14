@@ -220,7 +220,7 @@
             <div class="container">
                     
                 <!-- #footer-inside -->
-                <div id="footer-inside" class="clearfix">
+                <div id="footer-inside">
                     <div class="row">
                         <div class="col-md-3">
                             <!-- footer-area -->
@@ -253,11 +253,11 @@
             </div> 
         </div><!-- EOF:#footer -->
 
-        <div id="subfooter" class="clearfix">
+        <div id="subfooter">
             <div class="container">
                 
                 <!-- #subfooter-inside -->
-                <div id="subfooter-inside" class="clearfix">
+                <div id="subfooter-inside">
                     <div class="row">
                         <div class="col-md-4">
                             <!-- #subfooter-left -->

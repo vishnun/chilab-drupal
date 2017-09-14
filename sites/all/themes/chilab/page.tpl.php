@@ -240,11 +240,11 @@
 
 
 <?php if ($page['sub_footer_left'] || $page['footer']): ?>
-    <div id="subfooter" class="clearfix">
+    <div id="subfooter">
         <div class="container">
 
             <!-- #subfooter-inside -->
-            <div id="subfooter-inside" class="clearfix">
+            <div id="subfooter-inside">
                 <div class="row" style="margin-bottom: 0;">
                     <div class="col m4">
                         <!-- #subfooter-right -->
