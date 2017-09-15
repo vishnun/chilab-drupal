@@ -57,7 +57,7 @@
                         <a class="brand-logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> <img
                                     src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/> </a>
                 <?php endif; ?>
-		        <span id="headname" >Learning and Congnition Lab</span>
+		        <span id="headname"><a href="<?php print $front_page; ?>">Learning and Congnition Lab</a></span>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
                 <?php if ($page['navigation']) : ?>
@@ -246,7 +246,7 @@
             <!-- #subfooter-inside -->
             <div id="subfooter-inside">
                 <div class="row" style="margin-bottom: 0;">
-                    <div class="col m4">
+                    <div class="col s12 l4">
                         <!-- #subfooter-right -->
 
                         <?php if (theme_get_setting('credits_display')): ?>
@@ -263,7 +263,7 @@
                     </div>
 
 
-                    <div class="col m4">
+                    <div class="col s12 l3">
                         <div class="subfooter-area">
                             <div class="block">
                                 <ul class="footer-links">
@@ -273,12 +273,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col m4">
+                    <div class="col s12 l3">
                         <div class="subfooter-area">
                             <div class="block">
                                 <ul class="footer-links">
                                 <li><a href="https://ies.ed.gov/" target="_blank">Institute of Education Sciences</a></li>
                                 <li><a href="https://nsf.gov/" target="_blank">National Science Foundation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l2">
+                        <div class="subfooter-area">
+                            <div class="block">
+                                <ul class="footer-links">
+                                <li><a href="./people">People</a></li>
+                                <li><a href="./contact">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
