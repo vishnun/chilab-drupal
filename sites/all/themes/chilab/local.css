@@ -159,7 +159,11 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     font-size: 28px;
     display: none;
 }
-
+#headname a:hover,
+#headname a:active {
+    text-decoration: none;
+    color: inherit;
+}
 .text-center {
     text-align: center;
 }
