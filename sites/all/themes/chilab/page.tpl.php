@@ -51,7 +51,7 @@
 
     <div class="row header-row">
         <nav>
-            <div class="nav-wrapper col l10 offset-l1 s12">
+            <div class="nav-wrapper col s12 xl10 push-xl1">
 
                 <?php if ($logo): ?>
                         <a class="brand-logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> <img
