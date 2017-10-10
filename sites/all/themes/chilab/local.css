@@ -125,6 +125,12 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     font-size: 18px;
 }
 
+
+.bio-page .collection-item .description {
+    padding: 0;
+}
+
+
 /* headlinks used on bio page. */
 #headlink {
     display: none;
