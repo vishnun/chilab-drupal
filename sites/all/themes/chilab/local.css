@@ -178,22 +178,24 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     background: url(images/icap-logo.png) no-repeat;
 }
 
-.banner {
-    height: 400px;
-    position: relative;
-    background-size: cover;
-}
-
 #home-banner {
-    background: url(images/banner.png) no-repeat 50%;
+    background-image: url(images/banner.png);
 }
 
 #people-banner {
-    background: url(images/people-banner.jpg) no-repeat 50%;
+    background-image: url(images/people-banner.jpg);
 }
 
 #media-banner {
-    background: url(images/media-banner.jpg) no-repeat 50%;
+    background-image: url(images/media-banner.jpg);
+}
+
+.banner {
+    height: 400px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
 }
 
 .banner-content {
