@@ -181,8 +181,19 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
 .banner {
     height: 400px;
     position: relative;
-    background: url(images/banner.png) no-repeat 50%;
     background-size: cover;
+}
+
+#home-banner {
+    background: url(images/banner.png) no-repeat 50%;
+}
+
+#people-banner {
+    background: url(images/people-banner.jpg) no-repeat 50%;
+}
+
+#media-banner {
+    background: url(images/media-banner.jpg) no-repeat 50%;
 }
 
 .banner-content {
