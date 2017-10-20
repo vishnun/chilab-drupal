@@ -376,7 +376,7 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
 }
 
 /* below large desktop */
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     #headname {
         font-size: 16px;
     }
