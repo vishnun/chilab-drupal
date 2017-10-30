@@ -267,7 +267,7 @@
                         <div class="subfooter-area">
                             <div class="block">
                                 <ul class="footer-links">
-                                <li><a href="https://istl.asu.edu/" target="_blank">Institue of Science of Teaching And Learning</a></li>
+                                <li><a href="https://istl.asu.edu/" target="_blank">Institute for the Science of Teaching And Learning</a></li>
                                 <li><a href="https://www.asu.edu/" target="_blank">Arizona State University</a></li>
                                 </ul>
                             </div>
