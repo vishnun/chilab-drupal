@@ -36,6 +36,17 @@
     color: rgba(0, 0, 0, 0.87);
 }
 
+.page-btn {
+    width: 100%;
+    background-color: #621313;
+}
+
+.page-btn:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #941e1e;
+}
+
 nav {
     color: #fff;
     background-color: #691515;
@@ -125,11 +136,9 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     font-size: 18px;
 }
 
-
 .bio-page .collection-item .description {
     padding: 0;
 }
-
 
 /* headlinks used on bio page. */
 #headlink {
@@ -143,7 +152,6 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
 #headlink2 {
     font-size: 24px !important;
 }
-
 
 .subfooter-area .footer-links li {
     margin-bottom: 10px;
@@ -165,11 +173,13 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     font-size: 28px;
     display: none;
 }
+
 #headname a:hover,
 #headname a:active {
     text-decoration: none;
     color: inherit;
 }
+
 .text-center {
     text-align: center;
 }
@@ -264,11 +274,7 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     font-size: 70px;
 }
 
-
-
 /* Modal */
-
-
 
 /* The Modal (background) */
 .modalFull {
@@ -434,6 +440,7 @@ nav ul li a.active, nav ul li.active, nav ul li a:hover {
     .projects-page .project-title {
         font-size: 24px;
     }
+
     .projects-page .project-container,
     .projects-page .project-description,
     .projects-page .poster {
